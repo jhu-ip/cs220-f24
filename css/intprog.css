@@ -1,0 +1,401 @@
+/***********************************************************************
+   General page element styling
+ ***********************************************************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+
+a {
+  color: #1f386b;
+}
+
+a:visited {
+  color: #1f386b;
+}
+
+a.external:after {
+  content: " 🗗";
+  font-size: 80%;
+}
+
+table {
+  border-collapse: collapse;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 32px auto;
+}
+
+th {
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+th, td {
+  padding: 4px 8px;
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+
+/* For Spring 2023 midterm project writeup */
+
+table.puzzle {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 200%;
+}
+
+table.puzzle td {
+  background: white;
+  border: 2px solid black;
+  text-align: center;
+}
+
+table.puzzle td.gap {
+  background: black;
+}
+
+.puzzle_img {
+  display: inline-block;
+  vertical-align:middle;
+  width: 224px;
+}
+
+.puzzle_layout {
+  margin-left: 2em;
+}
+
+/***********************************************************************
+   Layout div styling / page structure
+ ***********************************************************************/
+
+#content {
+  margin: 0 auto;
+  /*margin-left: 2em;*/
+  max-width: 56em;
+}
+
+#schedule_container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#content p img:not(.keep_original_size) {
+  width: 100%;
+}
+
+#content p img.keep_original_size {
+  margin-left: 2em;
+}
+
+#content p img.normal_size {
+}
+
+#pageTitle {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 160%;
+  font-weight: bold;
+  vertical-align: middle;
+  background-color: #90bbde;
+  padding-top: .5em;
+  padding-bottom: .5em;
+/*
+  border: 2px solid #1f386b;
+  border-radius: 1em;
+*/
+}
+
+#cpp_logo {
+  height: 1.5em;
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+
+#headerSep {
+  height: 2px;
+  border-width: 0;
+  color: #1f386b;
+  background-color: #1f386b;
+}
+
+#footer {
+  margin-bottom: 2em;
+}
+
+#officehours_spreadsheet {
+  margin-top: 1em;
+  width: 100%;
+  height: 100em;
+}
+
+#schedule_spreadsheet {
+  margin-top: 1em;
+  width: 100%;
+  height: 60em;
+}
+
+/***********************************************************************
+   Navigation bar styling
+ ***********************************************************************/
+
+#navbar_container {
+  text-align: center;
+  /*margin-left: 2em;*/
+}
+
+#navbar {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  text-align: center;
+  display: inline-block;
+  min-width: 10em;
+  text-decoration: none;
+  margin: 0;
+  border: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #eee;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#navbar a.active {
+  background: #1f386b;
+  color: white;
+}
+
+/***********************************************************************
+  Code and code highlighting (actual syntax highlighting styles are
+  in syntax.css)
+ ***********************************************************************/
+
+/* This stuff is a bit of a mess, no doubt could be cleaned up considerably */
+
+div.highlighter-rouge {
+  margin: 1.5em 2em;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  overflow: auto;
+}
+
+pre {
+  font-family: 'Liberation Mono', monospace; font-size: 12pt;
+  /*margin: 1.5em 0.5em;*/
+}
+
+code {
+  font-family: 'Liberation Mono', monospace; font-size: 12pt;
+}
+
+code.highlighter-rouge, p code, div.admonition code {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  padding: 0 .25em;
+  border-radius: .25em;
+}
+
+.tentative {
+  color: #888;
+  font-style: italic;
+}
+
+/* This is used in ex02 for the green "Run" button */
+.green_button {
+  background: #6b6;
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+/***********************************************************************
+  Cards for staff page
+ ***********************************************************************/
+
+.card_container:after {
+  /* disable floating at the end of the card_container div */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color: #eee;
+  border-radius: 1em;
+  font-size: 80%;
+  width: 30em;
+  float: left;
+  margin: 1em;
+}
+
+.card img {
+  width: 6em;
+  height: 6em;
+  vertical-align: top;
+  margin: 0.5em;
+  /* make staff photos circular */
+  border-radius: 50%;
+}
+
+.card .details {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.name_and_role {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/***********************************************************************
+   collapsible sections for the Course Materials page
+ ***********************************************************************/
+
+.week_control_button {
+  background-color: #eee;
+  /*color: #444;*/
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 120%;
+}
+
+.week_control_button:after {
+  content: '+';
+  float: right;
+}
+
+.week_control_button.active:after {
+  content: '-';
+  float: right;
+}
+
+div.collapsible {
+}
+
+/***********************************************************************
+   Admonition styling
+ ***********************************************************************/
+
+/* general styling (for all admonitions) */
+
+div.admonition {
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+div.admonition div.title {
+  /*padding-top: 0.4em;*/
+  border-bottom: 1pt solid;
+  font-size: 120%;
+}
+
+div.admonition div.title:before {
+  font-size: 150%;
+}
+
+div.admonition div.title, div.admonition div.content {
+  margin-left: 1em;
+  /*width: 80%;*/
+}
+
+/* Note styling */
+
+div.note {
+  background: #eee;
+  border: 2px solid #666;
+}
+
+div.note div.title {
+  color: #666;
+}
+
+div.note div.title:before {
+  content: "ℹ️ ";
+}
+
+/* Tip/Success styling */
+
+div.tip, div.success {
+  background: #d8ffd8;
+  border: 2px solid #161;
+}
+
+div.tip div.title, div.success div.title {
+  color: #161;
+}
+
+div.tip div.title:before, div.success div.title:before {
+  content: "💡 ";
+}
+
+/* Info styling */
+
+div.info {
+  background: #e8e8ff;
+  border: 2px solid #116;
+}
+
+div.info div.title {
+  color: #116;
+}
+
+div.info div.title:before {
+  content: "ℹ️ ";
+}
+
+/* Caution styling */
+
+div.caution {
+  background: #ffffd8;
+  border: 2px solid #661;
+}
+
+div.caution div.title {
+  color: #661;
+}
+
+div.caution div.title:before {
+  content: "⚠️ ";
+}
+
+/* Danger styling */
+
+div.danger {
+  background: #ffd8d8;
+  border: 2px solid #611;
+}
+
+div.danger div.title {
+  color: #611;
+}
+
+div.danger div.title:before {
+  content: "🔥 ";
+}

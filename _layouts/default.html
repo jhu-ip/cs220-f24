@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <title>{{site.coursename}}: {{page.title}}</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Liberation+Mono' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/intprog.css">
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/syntax.css">
+  <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.png">
+  <script type="text/javascript" src="{{site.baseurl}}/js/intprog.js"></script>
+</head>
+
+<body>
+  <div id="navbar_container">
+    <ul id="navbar">
+      <li><a id="navbar_home" href="{{site.baseurl}}/index.html">CS220@JHU</a></li>
+      <li><a id="navbar_syllabus" href="{{site.baseurl}}/syllabus.html">Syllabus</a></li>
+      <li><a id="navbar_staff" href="{{site.baseurl}}/staff.html">Staff</a></li>
+      <li><a id="navbar_officehours" href="{{site.baseurl}}/officehours.html">CA Office Hours</a></li>
+      <li><a id="navbar_material" href="{{site.baseurl}}/material.html">Course Material</a></li>
+<!--
+      <li><a id="navbar_assignments" href="{{site.baseurl}}/assignments.html">Assignments</a></li>
+-->
+      <li><a id="navbar_schedule" href="{{site.baseurl}}/schedule.html">Schedule</a><li>
+      <li><a id="navbar_resources" href="{{site.baseurl}}/resources.html">Resources</a></li>
+    </ul>
+    <hr id="headerSep">
+  </div>
+
+  <div id="content">
+    <div id="pageTitle"><img id="cpp_logo" alt="C++ logo" src="{{site.baseurl}}/img/logo_cpp.svg">{{page.title}}</div>
+
+    {{content}}
+
+    <div id="footer"></div>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+        intprog.pageCategory = "{{page.category}}";
+        intprog.onLoad();
+      });
+    </script>
+  </div>
+</body>
+
+</html>

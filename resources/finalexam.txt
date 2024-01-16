@@ -1,0 +1,21 @@
+Final Exam
+90 minutes, on Gradescope
+
+Assigned seating: sit in the seat with your name on it
+
+Use only ONE electronic device (your laptop)
+
+Allowed resources:
+- course website, materials linked from the course website:
+  - slides, assignments, exercises
+  - C/C++ reference sites
+- your ugrad account (and your files, git repos, editor/compiler/gdb,
+  etc.) **using a terminal program**
+- your own notes accessed using a text editor, word processor,
+  or PDF viewer
+- printed/written notes on paper
+
+Disallowed resources:
+- any web resource not mentioned above
+- Visual Studio code
+- ChatGPT and other AI tools
