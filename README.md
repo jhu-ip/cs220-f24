@@ -1,6 +1,6 @@
 ## Official Course Webpage of CS220 - Intermediate Programming - Spring 2024
 
-This is the public website Github repository for 601.220 Intermediate Programming, Spring 2023, at Johns Hopkins University.
+This is the public website Github repository for 601.220 Intermediate Programming, Spring 2024, at Johns Hopkins University.
 
 The actual website (generated from the contents of this repository) is https://jhu-ip.github.io/cs220-sp23/.
 
