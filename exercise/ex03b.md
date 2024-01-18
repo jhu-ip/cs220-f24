@@ -58,12 +58,12 @@ cd cs220-f23-public
 ```
 to enter the newly created directory (that is, folder), and then type `ls` to list the files present in that directory.  Review the filenames that it shows and confirm that the files `README` and the exercises folder are present.
 
-If you did not successfully complete the above steps, ask of a member of the course staff and/or post on <a href="http://piazza.com/jhu/fall2023/en601220" target="_blank">Piazza</a>.
+If you did not successfully complete the above steps, ask of a member of the course staff and/or post on <a href="http://piazza.com/jhu/spring2024/en601220" target="_blank">Piazza</a>.
 
 ### Part 3
 Now that you have a local copy of the git repo in your ugrad account, we want to make a separate temporary directory structure in your account where you can do some work.
 
-1.	Change back to your home directory by typing either `cd ~`, or just `cd`. It’s important that you’re no longer in your local copy of the repo for the next step, so type `pwd` to check the name of your current directory; you should see that you’re in the folder named */home/your\_username_*, e.g. */home/ips22004* or similar. If you need help getting there, raise your hand (via Zoom) so we can help, or post on <a href="http://piazza.com/jhu/fall2023/en601220" target="_blank">Piazza</a>.
+1.	Change back to your home directory by typing either `cd ~`, or just `cd`. It’s important that you’re no longer in your local copy of the repo for the next step, so type `pwd` to check the name of your current directory; you should see that you’re in the folder named */home/your\_username_*, e.g. */home/ips22004* or similar. If you need help getting there, raise your hand (via Zoom) so we can help, or post on <a href="http://piazza.com/jhu/spring2024/en601220" target="_blank">Piazza</a>.
 
 2.	Create a subdirectory named `temp` by typing the command `mkdir temp`. 
 
