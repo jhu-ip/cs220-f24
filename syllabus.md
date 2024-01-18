@@ -310,7 +310,7 @@ gradescope and get autograder feedback on them.
 
 -   14% - midterm coding project (in teams)
 
--   15% - midterm exam (in class, date TBD)
+-   15% - midterm exam (in class, Friday March 8th)
 
 -   15% - final coding project (in teams)
 
