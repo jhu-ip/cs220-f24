@@ -13,7 +13,7 @@ on the due date.
 
 Assignment/Exam | Date
 --------------- | ----
-[Homework 0](assign/hw0.html) | Due Monday, Sep 11th
+[Homework 0](assign/hw0.html) | Due Fri, Feb 2nd
 
 <!--
 [Homework 1](assign/hw1.html) | Due Friday, Sep 15th
