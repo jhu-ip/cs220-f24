@@ -93,7 +93,7 @@ The following sites will be used heavily during the course:
     for Piazza immediately.
 
 -   Gradescope (<a class="external" target="_blank" href="https://www.gradescope.com/">https://www.gradescope.com/</a>) will be used
-    for assignment submission, grades and feedback; Entry code is "B2E25Y".
+    for assignment submission, grades and feedback; Entry code is "RK2EPK".
 
 -   Panopto will be used for video distribution.
 
