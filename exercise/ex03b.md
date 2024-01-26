@@ -50,11 +50,11 @@ First, create a copy (clone) of the public repository for the class by taking th
 
 2.	If you have not already done so, use **git** to clone the class example repository by typing: 
 ```bash
-git clone https://github.com/jhu-ip/cs220-f23-public.git
+git clone https://github.com/jhu-ip/cs220-sp24-public.git
 ```
 3.	Type:
 ``` bash
-cd cs220-f23-public
+cd cs220-sp24-public
 ```
 to enter the newly created directory (that is, folder), and then type `ls` to list the files present in that directory.  Review the filenames that it shows and confirm that the files `README` and the exercises folder are present.
 
@@ -72,7 +72,7 @@ Now, copy a file from your local copy of the class repo into the directory you j
 
 1.	Copy `hello_world.c` from your local copy of the class repository into your personal folder by navigating into `~/temp` (the folder you just created) using `cd temp` and then typing (Hint: using tab-completion will help here!): 
 ```bash
-cp ~/cs220-f23-public/exercises/ex03b/hello_world.c .
+cp ~/cs220-sp24-public/exercises/ex03b/hello_world.c .
 ```
 The command above ends with a period ("dot"), and there must be a space before the dot. The dot in Unix stands for the current directory; in this command you’re expressing that the current directory is the destination for the copy you’re making.
  
@@ -103,7 +103,7 @@ gcc -std=c99 -Wall -Wextra -pedantic hello_me.c
 ### Part 5
 Wrap up the exercise by cleaning up your files, and logging out of the ugrad system, as follows:
 
-1.	While you do not want to remove or even modify the `cs220-f23-public` folder (that is, your copy of our public class repo), you will no longer need to keep the temporary directory named `temp` that we created today, or any of the files you put inside it.  To remove the `temp` directory, first navigate to your home directory (that is, the top-level folder in your account) by typing `cd ~` or simply `cd`.
+1.	While you do not want to remove or even modify the `cs220-sp24-public` folder (that is, your copy of our public class repo), you will no longer need to keep the temporary directory named `temp` that we created today, or any of the files you put inside it.  To remove the `temp` directory, first navigate to your home directory (that is, the top-level folder in your account) by typing `cd ~` or simply `cd`.
 
 2.	Once you are sure you are in the right folder, type `rm -r temp` to remove the `temp` folder and all of its contents. Note that `rm` is the remove command, and the extra `-r` flag indicates that you wish the remove command to be applied recursively, meaning to all subfolders within `temp`.  Be very careful when executing any `rm` command in Unix/Linux; there is no undo button if you make a mistake and delete important files! If you want to verify deletion before removing files, use the `-i` option with `rm`.
 	<div class='admonition danger'>
