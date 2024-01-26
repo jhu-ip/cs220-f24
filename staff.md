@@ -16,8 +16,8 @@ category: "staff"
     Department of Computer Science<br>
     Email: <a href="mailto:misha@cs.jhu.edu">misha@cs.jhu.edu</a><br>
     Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a><br>
-    Office hours: TBA<br>
-    Zoom: <a class="external" target="_blank" href="">TBA</a>
+    Office hours: Thursday 12:00-1:00pm<br>
+    Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/mishak">https://wse.zoom.us/my/mishak</a>
     </div>
   </div>
   <div class="card">
@@ -27,8 +27,8 @@ category: "staff"
     Department of Computer Science<br>
     Email: <a href="mailto:darvish@jhu.edu">darvish@jhu.edu</a><br>
     Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~darvish/">https://www.cs.jhu.edu/~darvish/</a><br>
-    Office hours: TBA<br>
-    Zoom: <a class="external" target="_blank" href="">TBA</a>
+    Office hours: Thursday 5-7pm<br>
+    Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/s/5158173954">https://wse.zoom.us/s/5158173954</a>
     </div>
   </div>
 </div>

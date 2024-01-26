@@ -51,6 +51,7 @@ Misha Kazhdan, Professor\
 <mailto:misha@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a>,\
 Office hours: Thu 12:00-1:00pm over zoom 
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/mishak">https://wse.zoom.us/my/mishak</a>
 
 **Meetings**
 
