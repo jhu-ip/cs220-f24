@@ -68,42 +68,41 @@ the materials for that week.
 </table>
 </div>
 
-<!-- 
-<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (4-Sep to 8-Sep)</button>
+<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (29-Jan to 2-Feb)</button>
 <div id="week_2" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Labor Day (4-Sep)</th>
-      <th>Day 4 (6-Sep)</th>
-      <th>Day 5 (8-Sep)</th>
+      <th>Day 4 (29-Jan)</th>
+      <th>Day 5 (31-Jan)</th>
+      <th>Day 6 (2-Feb)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
-      <td>NA</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=45b14d44-3d4e-4fd7-b0c0-ae230027aef2'>Logical operators, control flow</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58f4d402-fd0d-4868-b805-ae230027ab93'>Arrays, ASCII</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a4f1da-f6a1-4212-b686-ae230027ab33'>C strings</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae149930-15ce-460c-a2df-ae230027aac0'>File I/O, assert, math functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1de2958b-f8b8-4fae-ac47-ae230027aa77'>Writing functions, command line arguments</a><br></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td>NA</td>
       <td><a href='slides/day04_control_flow.pdf'>Logical operators, control flow</a></td>
       <td><a href='slides/day05_arrays.pdf'>Arrays</a><br><a href='slides/day05_c_strings.pdf'>C strings</a></td>
+      <td><a href='slides/day06_fileio_assertion_math.pdf'>File I/O, assert, math functions</a><br><a href='slides/day06_functions_command_line_arguments.pdf'>Writing functions, command line arguments</a><br></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td>NA</td>
       <td><a href='questions/day04.html'>Day 4</a></td>
       <td><a href='questions/day05.html'>Day 5</a></td>
+      <td><a href='questions/day06.html'>Day 6</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td>NA</td>
       <td><a href='exercise/ex04.html'>Exercise 4</a></td>
       <td><a href='exercise/ex05.html'>Exercise 5</a></td>
+      <td><a href='exercise/ex06.html'>Exercise 6</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -114,7 +113,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_3_toggle" class="week_control_button">Week 3 (11-Sep to 15-Sep)</button>
 <div id="week_3" class="collapsible">
 <table>
@@ -130,13 +129,13 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae149930-15ce-460c-a2df-ae230027aac0'>File I/O, assert, math functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1de2958b-f8b8-4fae-ac47-ae230027aa77'>Writing functions, command line arguments</a><br></td>
+      <td></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbef007b-88a8-4e42-bcc4-ae230027a8f4'>Function declarations</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c18158bd-cf31-48c4-a2c0-ae230027a87e'>Passing arrays to functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12215376-94e9-48dd-8d5a-ae230027937e'>Recursion</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76660996-f221-4bda-85bf-ae230027aa0b'>Separate compilation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=956ae811-74a5-48f2-8d73-ae230027a9b0'>Makefiles</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76a9e1f6-07f3-483c-9341-ae230027a948'>Header guards</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day06_fileio_assertion_math.pdf'>File I/O, assert, math functions</a><br><a href='slides/day06_functions_command_line_arguments.pdf'>Writing functions, command line arguments</a><br></td>
+      <td></td>
       <td><a href='slides/day07_function_declaration.pdf'>Function declarations</a><br><a href='slides/day07_passing_arrays_to_functions.pdf'>Passing arrays to functions</a><br><a href='slides/day07_recursion.pdf'>Recursion</a></td>
       <td><a href='slides/day08_separate_compilation.pdf'>Separate compilation</a><br><a href='slides/day08_makefiles.pdf'>Makefiles</a><br><a href='slides/day08_header_guards.pdf'>Header guards</a></td>
     </tr>
