@@ -127,7 +127,7 @@ Create a file on ugrad and add it to the repository:
 
 **10.**	Type the command `git log` to see what it reports.
 
-**11.**	Edit your _README_ file, and within the file, add a line saying that this is your personal repository for Intermediate Programming at JHU for Spring 2023, and your section number.
+**11.**	Edit your _README_ file, and within the file, add a line saying that this is your personal repository for Intermediate Programming at JHU for Spring 2024, and your section number.
 
 **12.**	Check the status again with `git status`, then commit your updated _README_ using `git commit -am "updated README"`. 
 
@@ -174,7 +174,7 @@ Prepare your files as if you were asked to submit them to Gradescope for a homew
 <div class='admonition info'>
 <div class='title'>Windows Users</div>
 <div class='content'>
-<p>You will need <code>pscp</code> here which should have been installed already automatically when you installed Putty. Copy your <em>.zip</em> file from ugrad to your local computer using <code>pscp &lt;source&gt; &lt;destination&gt;</code>. For example, you could open a Command Prompt window or Powershell and type <code>pscp css22006@ugradx.cs.jhu.edu:2023-spring-student-JHED/ex03.zip .</code>. For Windows where WinSCP has been installed: connect to ugradx using the WinSCP interface and drag the <em>ex03.zip</em> file from the ugradx side to your local computer's side.</p>
+<p>You will need <code>pscp</code> here which should have been installed already automatically when you installed Putty. Copy your <em>.zip</em> file from ugrad to your local computer using <code>pscp &lt;source&gt; &lt;destination&gt;</code>. For example, you could open a Command Prompt window or Powershell and type <code>pscp css22006@ugradx.cs.jhu.edu:2024-spring-student-JHED/ex03.zip .</code>. For Windows where WinSCP has been installed: connect to ugradx using the WinSCP interface and drag the <em>ex03.zip</em> file from the ugradx side to your local computer's side.</p>
 </div>
 </div>
 
