@@ -156,7 +156,7 @@ the materials for that week.
     <tr>
       <td>Additional<br>Resources</td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/07.pdf">Section 03 slides</A></td>
-      <td></td>
+      <td><BR><A class='external' target='_blank' HREF="slides_misha/08.pdf">Section 03 slides</A></td>
       <td></td>
     </tr>
     
