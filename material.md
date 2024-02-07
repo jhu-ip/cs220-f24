@@ -157,22 +157,21 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/07.pdf">Section 03 slides</A></td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/08.pdf">Section 03 slides</A></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf'>GDB Cheat Sheet</a></td>
     </tr>
     
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (18-Sep to 22-Sep)</button>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (12-Feb to 16-Feb)</button>
 <div id="week_4" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 9 (18-Sep)</th>
-      <th>Day 10 (20-Sep)</th>
-      <th>Day 11 (22-Sep)</th>
+      <th>Day 10 (12-Feb)</th>
+      <th>Day 11 (14-Feb)</th>
+      <th>Day 12 (16-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -180,34 +179,36 @@ the materials for that week.
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3'>Pointers</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88e3945a-f1f2-4442-825e-ae230027a746'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2'>Valgrind</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6626bc1f-ffd6-4245-91cd-ae230027a13e'>Pointer Arithmetic</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic 2-D Arrays, Pointers and Const</a></td>
     </tr>
     <tr>
       <td>Slides</td>
       <td><a href='slides/day10_pointers.pdf'>Pointers</a></td>
       <td><a href='slides/day11_dynamic_memory_allocation.pdf'>Dynamic Memory Allocation</a><br><a href='slides/day11_valgrind.pdf'>Valgrind</a></td>
+      <td><a href='slides/day12_pointer_arithmetic.pdf'>Pointer Arithmetic</a><br><a href='slides/day12_more_pointers_dynamic_2d_arrays.pdf'>Dynamic 2-D Arrays, Pointers and Const</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day09.html'>Day 9</a></td>
       <td><a href='questions/day10.html'>Day 10</a></td>
       <td><a href='questions/day11.html'>Day 11</a></td>
+      <td><a href='questions/day12.html'>Day 12</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex09.html'>Exercise 9</a></td>
       <td><a href='exercise/ex10.html'>Exercise 10</a></td>
       <td><a href='exercise/ex11.html'>Exercise 11</a></td>
+      <td><a href='exercise/ex12.html'>Exercise 12</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><a class='external' target='_blank' href='https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf'>GDB Cheat Sheet</a></td>
       <td><a class='external' target='_blank' href='https://www.youtube.com/watch?v=5VnDaHBi8dM'>Binky the Pointer (Video)</a></td>
       <td><code>valgrind --leak-check=full --show-leak-kinds=all</code></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_5_toggle" class="week_control_button">Week 5 (25-Sep to 29-Sep)</button>
 <div id="week_5" class="collapsible">
 <table>
@@ -222,12 +223,11 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=6626bc1f-ffd6-4245-91cd-ae230027a13e'>Pointer Arithmetic</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic 2-D Arrays, Pointers and Const</a></td><td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663'>Lifetime/Scope</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4'>Structs</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7'>Random number generation</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663'>Lifetime/Scope</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4'>Structs</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7'>Random number generation</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f'>Binary file I/O</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246'>Bitwise operations</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day12_pointer_arithmetic.pdf'>Pointer Arithmetic</a><br><a href='slides/day12_more_pointers_dynamic_2d_arrays.pdf'>Dynamic 2-D Arrays, Pointers and Const</a></td>
       <td><a href='slides/day13_lifetime_scope.pdf'>Lifetime/Scope</a><br><a href='slides/day13_struct_type.pdf'>Structs</a><br><a href='slides/day13_random_numbers.pdf'>Random number generation</a></td>
       <td><a href='slides/day14_binary_file_io.pdf'>Binary file I/O</a><br><a href='slides/day14_bitwise_operations.pdf'>Bitwise operations</a></td>
     </tr>
