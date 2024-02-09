@@ -157,7 +157,10 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/07.pdf">Section 03 slides</A></td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/08.pdf">Section 03 slides</A></td>
-      <td><a class='external' target='_blank' href='https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf'>GDB Cheat Sheet</a></td>
+      <td>
+	  <a class='external' target='_blank' href='https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf'>GDB Cheat Sheet</a>
+		<BR><A class='external' target='_blank' HREF="slides_misha/09.pdf">Section 03 slides</A>
+	  </td>
     </tr>
     
   </tbody>
