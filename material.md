@@ -108,9 +108,9 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><BR><A class='external' target='_blank' HREF="slides_misha/04.pdf">Section 03 slides</A></td>
-      <td><BR><A class='external' target='_blank' HREF="slides_misha/05.pdf">Section 03 slides</A></td>
-      <td><BR><A class='external' target='_blank' HREF="slides_misha/06.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/04.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/05.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/06.pdf">Section 03 slides</A></td>
     </tr>
   </tbody>
 </table>
@@ -155,8 +155,8 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><BR><A class='external' target='_blank' HREF="slides_misha/07.pdf">Section 03 slides</A></td>
-      <td><BR><A class='external' target='_blank' HREF="slides_misha/08.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/07.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/08.pdf">Section 03 slides</A></td>
       <td>
 	  <a class='external' target='_blank' href='https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf'>GDB Cheat Sheet</a>
 		<BR><A class='external' target='_blank' HREF="slides_misha/09.pdf">Section 03 slides</A>
@@ -204,7 +204,10 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><a class='external' target='_blank' href='https://www.youtube.com/watch?v=5VnDaHBi8dM'>Binky the Pointer (Video)</a></td>
+      <td>
+	  <a class='external' target='_blank' href='https://www.youtube.com/watch?v=5VnDaHBi8dM'>Binky the Pointer (Video)</a>
+		<BR><A class='external' target='_blank' HREF="slides_misha/10.pdf">Section 03 slides</A>
+	  </td>
       <td><code>valgrind --leak-check=full --show-leak-kinds=all</code></td>
       <td></td>
     </tr>
