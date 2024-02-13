@@ -44,6 +44,7 @@ Gradescope and recieve feedback and your work in there. Regrade requests
 can be made and are processed on Gradescope as well. You can join Gradescope course page using the entry code **RK2EPK**.
 
 ## News
-* **Feb 1st** - [HW1](assign/hw1) posted!
+* **February 9th** [Homework 2](https://www.gradescope.com/courses/701550/assignments/4077691/) posted!
+* **February 1st** - [HW1](assign/hw1) posted!
 * **January 24** - [HW0](assign/hw0) posted!
 * **January 22** — Welcome to Intermediate Programming! Check out Week 1 material under "Course Material" tab. 
