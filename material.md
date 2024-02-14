@@ -208,7 +208,10 @@ the materials for that week.
 	  <a class='external' target='_blank' href='https://www.youtube.com/watch?v=5VnDaHBi8dM'>Binky the Pointer (Video)</a>
 		<BR><A class='external' target='_blank' HREF="slides_misha/10.pdf">Section 03 slides</A>
 	  </td>
-      <td><code>valgrind --leak-check=full --show-leak-kinds=all</code></td>
+      <td>
+	  <code>valgrind --leak-check=full --show-leak-kinds=all</code>
+	  <BR><A class='external' target='_blank' HREF="slides_misha/11.pdf">Section 03 slides</A>
+	  </td>
       <td></td>
     </tr>
   </tbody>
