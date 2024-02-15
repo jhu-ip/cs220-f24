@@ -214,40 +214,41 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (25-Sep to 29-Sep)</button>
+<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (19-Feb to 23-Feb)</button>
 <div id="week_5" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 12 (25-Sep)</th>
-      <th>Day 13 (27-Sep)</th>
-      <th>Day 14 (29-Sep)</th>
+      <th>Day 13 (19-Feb)</th>
+      <th>Day 14 (21-Feb)</th>
+      <th>Day 15 (23-Feb)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663'>Lifetime/Scope</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4'>Structs</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7'>Random number generation</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663'>Lifetime/Scope</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4'>Structs</a><br></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f'>Binary file I/O</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246'>Bitwise operations</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af'>Number representation,<br>type conversion/casting</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7'>Random number generation</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day13_lifetime_scope.pdf'>Lifetime/Scope</a><br><a href='slides/day13_struct_type.pdf'>Structs</a><br><a href='slides/day13_random_numbers.pdf'>Random number generation</a></td>
+      <td><a href='slides/day13_lifetime_scope.pdf'>Lifetime/Scope</a><br><a href='slides/day13_struct_type.pdf'>Structs</a></td>
       <td><a href='slides/day14_binary_file_io.pdf'>Binary file I/O</a><br><a href='slides/day14_bitwise_operations.pdf'>Bitwise operations</a></td>
+      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation,<br>type conversion/casting</a><br><a href='slides/day13_random_numbers.pdf'>Random number generation</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day12.html'>Day 12</a></td>
       <td><a href='questions/day13.html'>Day 13</a></td>
       <td><a href='questions/day14.html'>Day 14</a></td>
+      <td><a href='questions/day15.html'>Day 15</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex12.html'>Exercise 12</a></td>
       <td><a href='exercise/ex13.html'>Exercise 13</a></td>
       <td><a href='exercise/ex14.html'>Exercise 14</a></td>
+      <td><a href='exercise/ex15.html'>Exercise 15</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -258,8 +259,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-
-
+<!--
 <button type="button" id="week_6_toggle" class="week_control_button">Week 6 (2-Oct to 6-Oct)</button>
 <div id="week_6" class="collapsible">
 <table>
@@ -280,7 +280,6 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation,<br>type conversion/casting</a></td>
       <td><a href='slides/day16_linked_lists.pdf'>Linked lists</a></td>
       <td></td>
     </tr>
