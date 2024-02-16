@@ -212,7 +212,9 @@ the materials for that week.
 	  <code>valgrind --leak-check=full --show-leak-kinds=all</code>
 	  <BR><A class='external' target='_blank' HREF="slides_misha/11.pdf">Section 03 slides</A>
 	  </td>
-      <td></td>
+      <td>
+		<BR><A class='external' target='_blank' HREF="slides_misha/12.pdf">Section 03 slides</A>
+	  </td>
     </tr>
   </tbody>
 </table>
