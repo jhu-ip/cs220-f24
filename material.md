@@ -213,7 +213,7 @@ the materials for that week.
 	  <BR><A class='external' target='_blank' HREF="slides_misha/11.pdf">Section 03 slides</A>
 	  </td>
       <td>
-		<BR><A class='external' target='_blank' HREF="slides_misha/10.pdf">Section 03 slides</A>
+		<BR><A class='external' target='_blank' HREF="slides_misha/12.pdf">Section 03 slides</A>
 	  </td>
     </tr>
   </tbody>
