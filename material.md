@@ -264,52 +264,52 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (2-Oct to 6-Oct)</button>
+<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (26-Feb to 1-March)</button>
 <div id="week_6" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 15 (2-Oct)</th>
-      <th>Day 16 (4-Oct)</th>
-      <th>Day 17 (6-Oct)</th>
+      <th>Day 16 (2-Feb)</th>
+      <th>Midterm Project (28-Feb)</th>
+      <th>Day 18 (1-March)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af'>Number representation,<br>type conversion/casting</a></td>
+      <td>Intro to midterm project</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=254ea75c-12a1-456c-b91d-ae230027a0c6'>Linked lists</a></td>
-      <td></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day16_linked_lists.pdf'>Linked lists</a></td>
+      <td><a href='day15_number_rep_type_conversions'>Linked lists</a></td>
       <td></td>
+      <td><a href='slides/day16_linked_lists.pdf'>Linked lists</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day15.html'>Day 15</a></td>
       <td><a href='questions/day16.html'>Day 16</a></td>
       <td></td>
+      <td><a href='questions/day17.html'>Day 17</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex15.html'>Exercise 15</a></td>
       <td><a href='exercise/ex16.html'>Exercise 16</a></td>
-      <td><a href='assign/midterm.html'>Midterm Project</a></td>
+      <td>Midterm Project</td>
+      <td><a href='exercise/ex17.html'>Exercise 16</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
       <td></td>
       <td></td>
-      <td></td>
+      <td><a href='resources/MidtermReview.pdf'>Midterm Review Questions</a><br><a href='resources/Midterm-Fall2019.pdf'>Fall 2019 Midterm Questions</a></td>
     </tr>
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_7_toggle" class="week_control_button">Week 7 (9-Oct to 13-Oct)</button>
 <div id="week_7" class="collapsible">
 <table>
