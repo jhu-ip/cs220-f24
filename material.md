@@ -284,7 +284,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='day15_number_rep_type_conversions'>Linked lists</a></td>
+      <td><a href='day15_number_rep_type_conversions'>Type conversions</a></td>
       <td></td>
       <td><a href='slides/day16_linked_lists.pdf'>Linked lists</a></td>
     </tr>
@@ -298,7 +298,7 @@ the materials for that week.
       <td>Exercise</td>
       <td><a href='exercise/ex16.html'>Exercise 16</a></td>
       <td>Midterm Project</td>
-      <td><a href='exercise/ex17.html'>Exercise 16</a></td>
+      <td><a href='exercise/ex17.html'>Exercise 17</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
