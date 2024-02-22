@@ -272,7 +272,7 @@ the materials for that week.
       <th></th>
       <th>Day 16 (2-Feb)</th>
       <th>Midterm Project (28-Feb)</th>
-      <th>Day 18 (1-March)</th>
+      <th>Day 17 (1-March)</th>
     </tr>
   </thead>
   <tbody>
@@ -285,13 +285,13 @@ the materials for that week.
     <tr>
       <td>Slides</td>
       <td><a href='day15_number_rep_type_conversions'>Type conversions</a></td>
-      <td></td>
+      <td>N/A</td>
       <td><a href='slides/day16_linked_lists.pdf'>Linked lists</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
       <td><a href='questions/day16.html'>Day 16</a></td>
-      <td></td>
+      <td>N/A</td>
       <td><a href='questions/day17.html'>Day 17</a></td>
     </tr>
     <tr>
