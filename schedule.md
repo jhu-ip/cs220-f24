@@ -16,11 +16,11 @@ Assignment/Exam | Date
 --------------- | ----
 [Homework 0](assign/hw0.html) | Due Fri, Feb 2nd
 [Homework 1](assign/hw1.html) | Due Fri, Feb 9th
-[Homework 2](https://www.gradescope.com/courses/701550/assignments/4077691/) | Due Friday, Feb 16th
+[Homework 2](https://www.gradescope.com/courses/701550/assignments/4077691/) | Due Fri, Feb 16th
 [Homework 3](assign/hw3.html) | Due Fri, Feb 23rd
-
+[Homework 4](https://www.gradescope.com/courses/701550/assignments/4148605/) | Due Fri, Mar 1st
 <!--
-[Homework 4](https://www.gradescope.com/courses/584905/assignments/3414944/) | Due Wed, Oct 4th
+
 [Midterm Project](assign/midterm.html) | Due Wed, Oct 25th
 [Homework 5](assign/hw5.html) | Due Friday, Nov 3rd
 [Homework 6](https://www.gradescope.com/courses/584905/assignments/3630043/) | Due Friday, Nov 10th
