@@ -9,7 +9,7 @@ title: Homework 3
 <div class='content'>
 <ul>
 <li>You are expected to work individually.</li>
-<li><strong>Due: <s>Friday, February 23th</s> Monday 2/26 at 11pm EST (Baltimore time).</strong></li>
+<li><strong>Due: <s>Friday, February 23th</s> Monday 2/26 at 11pm EST (Baltimore time) is the HARD DEADLINE. No late days will be counted or can be used beyond this dealine.</strong></li>
 <li><em>This assignment is worth 60 points.</em></li>
 </ul>
 </div>
