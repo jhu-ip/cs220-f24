@@ -19,7 +19,7 @@ Assignment/Exam | Date
 [Homework 2](https://www.gradescope.com/courses/701550/assignments/4077691/) | Due Fri, Feb 16th
 [Homework 3](assign/hw3.html) | Due Fri, Feb 23rd
 [Homework 4](https://www.gradescope.com/courses/701550/assignments/4148605/) | Due Fri, Mar 1st
-
+[Midterm Project](assign/midterm.html) | Due Fri, Mar 15th
 
 <!--
 

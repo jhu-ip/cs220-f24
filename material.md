@@ -270,7 +270,7 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 16 (2-Feb)</th>
+      <th>Day 16 (26-Feb)</th>
       <th>Midterm Project (28-Feb)</th>
       <th>Day 17 (1-March)</th>
     </tr>
@@ -278,15 +278,15 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af'>Number representation,<br>type conversion/casting</a></td>
-      <td>Intro to midterm project</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=254ea75c-12a1-456c-b91d-ae230027a0c6'>Linked lists</a></td>
+      <td>Intro to midterm project</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42'>More Linked lists</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='day15_number_rep_type_conversions'>Type conversions</a></td>
-      <td>N/A</td>
       <td><a href='slides/day16_linked_lists.pdf'>Linked lists</a></td>
+      <td>N/A</td>
+      <td><a href='slides/day17_more_linked_lists.pdf'>More Linked lists</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
@@ -324,13 +324,11 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42'>More Linked lists</a></td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day17_more_linked_lists.pdf'>More Linked lists</a></td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
