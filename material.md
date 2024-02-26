@@ -302,7 +302,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td></td>
+      <td><BR><A class='external' target='_blank' HREF="slides_misha/13.pdf">Section 03 slides</A></td>
       <td></td>
       <td><a href='resources/MidtermReview.pdf'>Midterm Review Questions</a><br><a href='resources/Midterm-Fall2019.pdf'>Fall 2019 Midterm Questions</a></td>
     </tr>
