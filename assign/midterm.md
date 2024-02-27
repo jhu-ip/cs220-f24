@@ -215,7 +215,7 @@ For each module, it's important to think about precisely what it should do, and 
 </div>
 
 ### Scaffolding Folder
-The scaffolding (i.e. starter code) folder for this project (available in the public repository) provides you with `ppm_io.c`, `ppm_io.h`, `checkerboard.c`, `project.c`, `img_cmp.c`, and a `Makefile` for the project. It also contains some testing PPM files in a folder named `data` and some expected results in a subfolder named `results`, which is in the PPM format. Lastly, we provide starter files `image_manip.h` and `image_manip.c` which is where your implementations of the various transformation operations should be added.
+The scaffolding (i.e. starter code) folder for this project (available in the public repository) provides you with `ppm_io.c`, `ppm_io.h`, `checkerboard.c`, `project.c`, and `img_cmp.c` for the project. It also contains some testing PPM files in a folder named `data` and some expected results in a subfolder named `results`, which is in the PPM format. Lastly, we provide starter files `image_manip.h` and `image_manip.c` which is where your implementations of the various transformation operations should be added.
 
 <div class='admonition info'>
 <div class='title'>Note</div>
