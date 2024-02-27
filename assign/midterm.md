@@ -491,15 +491,18 @@ be represented by an unsigned char. Make sure to (1) do your calculations with a
 <div class='admonition danger'>
 <div class='title'>Submission Notes</div>
 <div class='content'>
+<p>
 Remember that programs which do not compile (with standard compiler flags on the ugrad machines) will not receive credit.  Additionally, points will be deducted for any compiler warnings. Points will also be deducted for any warnings, errors, or memory leaks reported by valgrind. All executables should be buildable using a `Makefile` with `project` as the main target, and should build and run cleanly.
+</p>
 </div>
 </div>
 
 <div class='admonition tip'>
 <div class='title'>Submission</div>
 <div class='content'>
+<p>
 Submit your project via Gradescope. Your submission should contain all source code and files necessary to compile your program (including a `Makefile`) as well as a `README` file (which includes both partner names, JHEDs and Hopkins IDs) and a `git log` file from your midterm project repo. The `log` should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission **should not** contain any compiled binaries (executables or object files), or any testing-related files (in particular, please do not submit any image files).
-
+</p>
 The requirements for your `git log` are the same as in previous assignments, except note that we expect all members of your team to be contributing commits to your shared midterm project repo.
 </div>
 </div>
@@ -507,6 +510,11 @@ The requirements for your `git log` are the same as in previous assignments, exc
 <div class='admonition tip'>
 <div class='title'>Note</div>
 <div class='content'>
-**Only one team member should submit the project on Gradescope, but you must add your partner's name in the Gradescope submission.** The same team member should submit all versions of the project in his/her account. **Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members**, so that each student gets credit for this work.
+<p>
+<ul>
+<li>Only one team member should submit the project on Gradescope, but you must add your partner's name in the Gradescope submission.</li>
+<li>The same team member should submit all versions of the project in his/her account.</li> 
+<li>Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members, so that each student gets credit for this work.</li>
+</p>
 </div>
 </div>
