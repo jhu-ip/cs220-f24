@@ -309,16 +309,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (9-Oct to 13-Oct)</button>
+<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (4-March to 8-March)</button>
 <div id="week_7" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 18 (9-Oct)</th>
-      <th>Day 19 (11-Oct)</th>
-      <th>Day 20 (13-Oct)</th>
+      <th>Midterm Project (4-March)</th>
+      <th>Midterm Project (6-March)</th>
+      <th>Midterm Exam (8-March)</th>
     </tr>
   </thead>
   <tbody>
@@ -326,34 +325,36 @@ the materials for that week.
       <td>Videos</td>
       <td>N/A</td>
       <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Slides</td>
       <td>N/A</td>
       <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day17.html'>Day 18</a></td>
+      <td>N/A</td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex17.html'>Exercise 17</a></td>
       <td>Midterm Project</td>
       <td>Midterm Project</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><a href='resources/MidtermReview.pdf'>Midterm Review Questions</a><br><a href='resources/Midterm-Fall2019.pdf'>Fall 2019 Midterm Questions</a></td>
+      <td></td>
       <td></td>
       <td><a href='resources/MidtermReview-solutions.pdf'>Midterm Review Solutions</a><br><a href='resources/Midterm-Fall2019-solutions.pdf'>Fall 2019 Midterm Solutions</a></td>
     </tr>
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_8_toggle" class="week_control_button">Week 8 (16-Oct to 20-Oct)</button>
 <div id="week_8" class="collapsible">
 <table>
