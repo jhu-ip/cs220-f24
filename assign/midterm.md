@@ -516,5 +516,6 @@ The requirements for your `git log` are the same as in previous assignments, exc
 <li>The same team member should submit all versions of the project in his/her account.</li> 
 <li>Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members, so that each student gets credit for this work.</li>
 </ul>
+</p>
 </div>
 </div>
