@@ -323,7 +323,13 @@ When ruunning the blend command, you would provide the input image file names fi
 
 
 ### Rotate-CCW
-Rotating an image counter-clockwise is relatively straightforward. First you should allocate a new image with reversed dimensions (width and height) of the input image. Then, you use a loop to assign each new pixel value using the corresponding cell in the original image. You should use paper and pencil to figure out the correct relationship between the original and rotated pixels. If you rotate the `kitten.ppm` image, you should see the following result image:
+Rotating an image counter-clockwise is relatively straightforward. First you should allocate a new image with reversed dimensions (width and height) of the input image. Then, you use a loop to assign each new pixel value using the corresponding cell in the original image. You should use paper and pencil to figure out the correct relationship between the original and rotated pixels. If you rotate the `kitten.ppm` image:
+
+```
+./project kitten.ppm kitten_rotated.ppm rotate-ccw
+```
+
+you should see the following result image:
 
 |![The rotated kitten image](../img/midterm/kitten_ccw.png)|
 |:--:|
