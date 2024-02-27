@@ -420,7 +420,7 @@ You will likely want to implement this in several functions. For instance, you m
 If you apply the blur transform with different sigma values to the ```kitten.ppm``` image, the result should look like the images shown below. (Note that blur may be a bit slow, and the larger a radius you use, the slower it will be.)
 
 ```
-./project kitten.ppm ../results/kitten_blur_5.ppm blur 5
+./project kitten.ppm kitten_blur_5.ppm blur 5
 ```
 
 |![The blurred kitten image sigma 0.5](../img/midterm/kitten_blur_0.5.png)|
