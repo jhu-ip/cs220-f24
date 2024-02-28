@@ -273,7 +273,11 @@ This is a fairly simple operation, but it does require a little math. Basically,
   ), and then assign that same value to all three color channels (if all three color channels have the same value, you know the pixel will show up as some shade of gray). For this program, we will use the NTSC standard conversion formula:
 
 
-If you look around online, you will discover that there are actually several different formulas that can be used, which result in slightly different results; please use the NTSC version for this assignment (see Wikipedia on grayscale conversion).
+If you look around online, you will discover that there are actually several different formulas that can be used, which result in slightly different results; please use the NTSC version for this assignment (see Wikipedia on grayscale conversion), that is:
+
+```
+gray = 0.3 * r + 0.59 * g + 0.11 * b
+```
 
 <div class='admonition tip'>
 <div class='title'>Tip</div>
