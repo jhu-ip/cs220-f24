@@ -304,7 +304,10 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/16.pdf">Section 03 slides</A></td>
       <td><BR><A class='external' target='_blank' HREF="slides_misha/17.pdf">Section 03 slides</A></td>
-      <td><a href='resources/MidtermReview.pdf'>Midterm Review Questions</a><br><a href='resources/Midterm-Fall2019.pdf'>Fall 2019 Midterm Questions</a></td>
+      <td>
+	  <a href='resources/MidtermReview.pdf'>Midterm Review Questions</a><br><a href='resources/Midterm-Fall2019.pdf'>Fall 2019 Midterm Questions</a><BR>
+	  <BR><A class='external' target='_blank' HREF="slides_misha/18.pdf">Section 03 slides</A>
+	  </td>
     </tr>
   </tbody>
 </table>
@@ -347,7 +350,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/19.pdf">Section 03 slides</A></td>
       <td><a href='resources/MidtermReview-solutions.pdf'>Midterm Review Solutions</a><br><a href='resources/Midterm-Fall2019-solutions.pdf'>Fall 2019 Midterm Solutions</a></td>
       <td></td>
     </tr>
