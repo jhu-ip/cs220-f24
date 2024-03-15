@@ -7,11 +7,9 @@ reference solutions:
   2. std::pair or std::tuple
   3. std::vector, std::map, std::pair, std::tuple, std::list
   4. std::sort, std::find, std::count
-  5. With a const_iterator, you are not allowed to change the contents.
 ---
 
 1. What is a `map` in C++ STL? What is the difference between `pair` and `tuple`?
 2. How do you return multiple values in C++?
 3. Name some useful templated data containers provided by STL.
 4. Name some useful algorithms provided by `<algorithm>`.
-5. What's the difference between an `iterator` and a `const_iterator`?
