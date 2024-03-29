@@ -4,6 +4,8 @@ layout: default
 title: Homework 5
 ---
 
+
+
 <div class='admonition caution'>
 <div class='title'>Caution</div>
 <div class='content'>
@@ -14,6 +16,14 @@ title: Homework 5
 </ul>
 </div>
 </div>
+
+<div class='admonition caution'>
+<div class='title'>Late-day Deadline</div>
+<div class='content'>
+It looks like a "ugrad" outage is planned on Sat 3/30. For this reason, if you are planning to use late days on this homework, Saturday will not be counted as a late day. In other words, you get an extra late day if you are using late days on this homework. The original deadline remains the same Friday 3/29, 11pm.
+</div>
+</div>
+
 
 ## Learning Objectives
 <div class='admonition success'>
