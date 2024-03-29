@@ -440,9 +440,9 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/25.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/26.pdf">Section 03 slides</A></td>
+      <td><A class='external' target='_blank' HREF="slides_misha/27.pdf">Section 03 slides</A></td>
     </tr>
   </tbody>
 </table>
