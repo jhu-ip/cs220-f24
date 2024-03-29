@@ -447,38 +447,41 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_10_toggle" class="week_control_button">Week 10 (30-Oct to 3-Nov)</button>
+<button type="button" id="week_10_toggle" class="week_control_button">Week 10 (1-April to 5-April)</button>
 <div id="week_10" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 26 (30-Oct)</th>
-      <th>Day 27 (1-Nov)</th>
-      <th>Day 28 (3-Nov)</th>
+      <th>Day 28 (1-April)</th>
+      <th>Day 29 (3-April)</th>
+      <th>Day 30 (5-April)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62080530-d06e-4a0e-be06-ae230027a050'>Constructors and default arguments</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2ea9792a-afab-4319-85f1-ae2300279fe3'>Destructors</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65'>Function overloading</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e'>Operator overloading</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93'>Initialization and assignment</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3'>Rule of 3</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day28_constructors.pdf'>Constructors and default arguments</a><br><a href='slides/day28_destructors.pdf'>Destructors</a></td>  
+      <td><a href='slides/day28_constructors.pdf'>Constructors and default arguments</a><br><a href='slides/day28_destructors.pdf'>Destructors</a></td>
+      <td><a href='slides/day29_function_overloading.pdf'>Function overloading</a><br><a href='slides/day29_operator_overloading.pdf'>Operator overloading</a></td>
+      <td><a href='slides/day30_initialization_assignments.pdf'>Initialization and assignment</a><br><a href='slides/day30_rule_of_3.pdf'>Rule of 3</a></td>  
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day26.html'>Day 26</a></td>
-      <td><a href='questions/day27.html'>Day 27</a></td>
       <td><a href='questions/day28.html'>Day 28</a></td>
+      <td><a href='questions/day29.html'>Day 29</a></td>
+      <td><a href='questions/day30.html'>Day 30</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex26.html'>Exercise 26</a></td>
-      <td><a href='exercise/ex27.html'>Exercise 27</a></td>
       <td><a href='exercise/ex28.html'>Exercise 28</a></td>
+      <td><a href='exercise/ex29.html'>Exercise 29</a></td>
+      <td><a href='exercise/ex30.html'>Exercise 30</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -489,7 +492,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_11_toggle" class="week_control_button">Week 11 (6-Nov to 10-Nov)</button>
 <div id="week_11" class="collapsible">
 <table>
@@ -504,14 +507,10 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65'>Function overloading</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e'>Operator overloading</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93'>Initialization and assignment</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3'>Rule of 3</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fed0c83c-bcd8-4341-8b0e-ae2300279cf6'>Template functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06bf6f38-8f76-4b19-80f4-ae2300279c79'>Template classes</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day29_function_overloading.pdf'>Function overloading</a><br><a href='slides/day29_operator_overloading.pdf'>Operator overloading</a></td>
-      <td><a href='slides/day30_initialization_assignments.pdf'>Initialization and assignment</a><br><a href='slides/day30_rule_of_3.pdf'>Rule of 3</a></td>
       <td><a href='slides/day31_template_functions.pdf'>Template functions</a><br><a href='slides/day31_template_classes.pdf'>Template classes</a></td>
     </tr>
     <tr>
