@@ -492,38 +492,47 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_11_toggle" class="week_control_button">Week 11 (6-Nov to 10-Nov)</button>
+<button type="button" id="week_11_toggle" class="week_control_button">Week 11 (8-April to 12-April)</button>
 <div id="week_11" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 29 (6-Nov)</th>
-      <th>Day 30 (8-Nov)</th>
-      <th>Day 31 (10-Nov)</th>
+      <th>Day 31 (6-Nov)</th>
+      <th>Day 32 (8-Nov)</th>
+      <th>Day 33 (10-Nov)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fed0c83c-bcd8-4341-8b0e-ae2300279cf6'>Template functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06bf6f38-8f76-4b19-80f4-ae2300279c79'>Template classes</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cdea279-e109-4ba8-b99d-ae2300279bea'>Inheritance</a><br>
+      <a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873d6ec0-a562-47f2-b098-ae2300279b28'>Polymorphism</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe'>Dynamic dispatch</a><br>
+      <a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e849f80-9dec-47c1-aaac-ae2300279986'>Function hiding & abstract classes</a><br>
+      <a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d6fdb70-910c-4823-b4a0-ae23002797a1'>Virtual destructors</a></td>
     </tr>
     <tr>
       <td>Slides</td>
       <td><a href='slides/day31_template_functions.pdf'>Template functions</a><br><a href='slides/day31_template_classes.pdf'>Template classes</a></td>
+      <td><a href='slides/day32_inheritance.pdf'>Inheritance</a><br>
+      <a href='slides/day32_polymorphism.pdf'>Polymorphism</a></td>
+      <td><a href='slides/day33_dynamic_dispatch.pdf'>Dynamic dispatch</a><br>
+      <a href='slides/day33_function_hiding_abstract_classes.pdf'>Function hiding & abstract classes</a><br>
+      <a href='slides/day33_virtual_destructors.pdf'>Virtual destructors</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day29.html'>Day 29</a></td>
-      <td><a href='questions/day30.html'>Day 30</a></td>
       <td><a href='questions/day31.html'>Day 31</a></td>
+      <td><a href='questions/day32.html'>Day 32</a></td>
+      <td><a href='questions/day33.html'>Day 33</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex29.html'>Exercise 29</a></td>
-      <td><a href='exercise/ex30.html'>Exercise 30</a></td>
       <td><a href='exercise/ex31.html'>Exercise 31</a></td>
+      <td><a href='exercise/ex32.html'>Exercise 32</a></td>
+      <td><a href='exercise/ex33.html'>Exercise 33</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -534,7 +543,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_12_toggle" class="week_control_button">Week 12 (13-Nov to 17-Nov)</button>
 <div id="week_12" class="collapsible">
 <table>
@@ -549,20 +558,10 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cdea279-e109-4ba8-b99d-ae2300279bea'>Inheritance</a><br>
-      <a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873d6ec0-a562-47f2-b098-ae2300279b28'>Polymorphism</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe'>Dynamic dispatch</a><br>
-      <a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e849f80-9dec-47c1-aaac-ae2300279986'>Function hiding & abstract classes</a><br>
-      <a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d6fdb70-910c-4823-b4a0-ae23002797a1'>Virtual destructors</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9'>OO Design & UML Diagrams</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day32_inheritance.pdf'>Inheritance</a><br>
-      <a href='slides/day32_polymorphism.pdf'>Polymorphism</a></td>
-      <td><a href='slides/day33_dynamic_dispatch.pdf'>Dynamic dispatch</a><br>
-      <a href='slides/day33_function_hiding_abstract_classes.pdf'>Function hiding & abstract classes</a><br>
-      <a href='slides/day33_virtual_destructors.pdf'>Virtual destructors</a></td>
       <td><a href='slides/day34_oo_design_uml.pdf'>OO Design & UML Diagrams</a></td>
     </tr>
     <tr>
