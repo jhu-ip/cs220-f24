@@ -154,6 +154,16 @@ Because the templated Tree will need to keep siblings in order and unique, each 
 
 Similar to the previous part, You are given a file named `TTreeTest.cpp` that tests your implementation (for the templated version). Once you are done implementing `Tree.h` and `Tree.inc`, you should compile and run `tTreeTest` to make sure that all test cases pass. 
 
+<div class='admonition info'>
+<div class='title'>Rule of Three Clarification</div>
+<div class='content'>
+<p>
+As you know from the course materials, the Rule of Three states that whenever we have a non-trivial destructor, we should also implement a copy constructor and an assignment operator. In this homework, while we do ask you to implement a non-trivial destructor, we are not asking for you to implement the other two aspects.
+
+Given this, please note that in your methods should be passing/receiving pointers or references to trees as opposed to tree objects directly. This is also true in the case of the + operator. While its syntax might suggest that it returns a new object, we expect you to return a reference to the already-existing tree on the left-hand side of the expression.</p>
+</div>
+</div>
+
 ### Makefile & Compiling
 
 Create and submit a Makefile with two rules (aside, perhaps, from the clean rule): 
@@ -181,6 +191,7 @@ The autograder does an automatic check to see if it can compile the two targets.
 </div>
 
 ### Git log and README
+
 In the assignments folder of your private repository, create a new subfolder named `hw7`. Do your work in that subfolder and use git add, git commit and git push regularly. Use git commit and the associated comments to document your work. e.g. if you just modified `CTree.cpp` to add a child functionality, you might do `git add CTree.cpp`; `git commit -m "addChild functions added!"`; `git push`.
 
 Your submission includes a copy of the output of git log showing at least five commits to the repository. Save the git log output into a file called `gitlog.txt` i.e., by doing `git log > gitlog.txt`.
