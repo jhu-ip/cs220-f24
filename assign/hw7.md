@@ -159,7 +159,8 @@ Similar to the previous part, You are given a file named `TTreeTest.cpp` that te
 <div class='content'>
 <p>
 As you know from the course materials, the Rule of Three states that whenever we have a non-trivial destructor, we should also implement a copy constructor and an assignment operator. In this homework, while we do ask you to implement a non-trivial destructor, we are not asking for you to implement the other two aspects.
-
+</p>
+<p>
 Given this, please note that in your methods should be passing/receiving pointers or references to trees as opposed to tree objects directly. This is also true in the case of the + operator. While its syntax might suggest that it returns a new object, we expect you to return a reference to the already-existing tree on the left-hand side of the expression.</p>
 </div>
 </div>
