@@ -79,15 +79,15 @@ Here, each node keeps a link to its first child, which then links across to the 
 
 Minimally, here are the functions that your CTree must have, keeping in mind that at all times the siblings of any node must be ordered and unique. You should only use the assignment `=`, equals `==`, less than `<` and output `<<` operators on chars to implement these functions. You are welcome to create helper functions and variations as well. 
 
-1. A constructor that is passed the character to store in the root node of a new tree. Consider adding parameters for the links in the node also, all with default values of `NULL`.
+* A constructor that is passed the character to store in the root node of a new tree. Consider adding parameters for the links in the node also, all with default values of `NULL`.
 
-2. A destructor that clears all the children of the current node and all the siblings to the right of the current node, freeing that dynamically allocated memory. (Hint: use recursion!)
+* A destructor that clears all the children of the current node and all the siblings to the right of the current node, freeing that dynamically allocated memory. (Hint: use recursion!)
 
-3. An `addChild` function, which is passed the character data to be stored in the child. This function returns false if it fails (which could happen because the data is already a child of this tree node) and true if it succeeds. Remember that the class must keep the children ordered.
+* An `addChild` function, which is passed the character data to be stored in the child. This function returns false if it fails (which could happen because the data is already a child of this tree node) and true if it succeeds. Remember that the class must keep the children ordered.
 
-4. An (overloaded, second) `addChild` function, which is passed the root of an existing tree to be stored as a child of this node. This function returns false if the root is invalid (has prev or siblings), or if the data in the root node is already a child of the tree node. Otherwise it adds the node in order and returns true.
+* An (overloaded, second) `addChild` function, which is passed the root of an existing tree to be stored as a child of this node. This function returns false if the root is invalid (has prev or siblings), or if the data in the root node is already a child of the tree node. Otherwise it adds the node in order and returns true.
 
-5. Two private `addSibling` functions. One is passed a character to be stored in a new node, and the other is passed the root of an existing tree. Each of these functions returns false if it fails (because the data is already a sibling to the right of this tree node, or the root node is invalid) and true if it succeeds. 
+* Two private `addSibling` functions. One is passed a character to be stored in a new node, and the other is passed the root of an existing tree. Each of these functions returns false if it fails (because the data is already a sibling to the right of this tree node, or the root node is invalid) and true if it succeeds. 
 
 <div class='admonition caution'>
 <div class='title'>Caution</div>
@@ -102,9 +102,10 @@ Remember that siblings must always be ordered.
 </div>
 </div>
 
-6. A `toString()` function that creates and returns a string of all the elements in the nodes of the tree, separated by newline characters. The ordering of the nodes must be determined by a depth-first pre-order traversal from the root node (see below).
+* A `toString()` function that creates and returns a string of all the elements in the nodes of the tree, separated by newline characters. The ordering of the nodes must be determined by a depth-first pre-order traversal from the root node (see below).
 
-7. An overloaded `+` operator that does the same thing as `addChild`. The difference is that instead of returning a boolean, it returns the resulting CTree. You should not change the function signature of operator+ function, but you should make a call to the `addChild` function when implementing it. 
+
+* An overloaded `+` operator that does the same thing as `addChild`. The difference is that instead of returning a boolean, it returns the resulting CTree. You should not change the function signature of operator+ function, but you should make a call to the `addChild` function when implementing it. 
 
 
 <div class='admonition success'>
@@ -116,9 +117,9 @@ The `CTreeTest.cpp` has an example on how this is supposed to work. look for the
 </div>
 </div>
 
-8. An overloaded `<<` operator that displays the value returned by toString (i.e., function `operator<<`) on the output stream. In fact, when implementing this, you should make a call to the `toString()` function of the parameter object. Also, note this function is NOT a member of the CTree class. You need to implement this as a separate function in your cpp file. Again, there is a sample test in the `CTreeTest.cpp` that shows how this is supposed to work (look for the `testOutputOp()` function).
+* An overloaded `<<` operator that displays the value returned by toString (i.e., function `operator<<`) on the output stream. In fact, when implementing this, you should make a call to the `toString()` function of the parameter object. Also, note this function is NOT a member of the CTree class. You need to implement this as a separate function in your cpp file. Again, there is a sample test in the `CTreeTest.cpp` that shows how this is supposed to work (look for the `testOutputOp()` function).
 
-9. An overloaded `==` operator that checks if two CTrees are equal. Two CTrees are considered equal if they match node by node. In other words, two CTrees are equal if their structure and node values are identical.  You should not change the function signature of `operator==` function in the header file. The `CTreeTest.cpp` has an example of how this is supposed to work. (look for the `testEqualityOp()` function).
+* An overloaded `==` operator that checks if two CTrees are equal. Two CTrees are considered equal if they match node by node. In other words, two CTrees are equal if their structure and node values are identical.  You should not change the function signature of `operator==` function in the header file. The `CTreeTest.cpp` has an example of how this is supposed to work. (look for the `testEqualityOp()` function).
 
 Regarding the `toString()` function, we want it to do a depth-first pre-order traversal of the tree. This means that as you iterate through the tree, the first node you get is the root, then it goes through that node's children (recursively depth-first), and finally its siblings. As a related example, a simple (non-object-oriented) recursive depth-first traversal starting at some parameter node would look like this:
 
