@@ -22,12 +22,13 @@ Assignment/Exam | Date
 [Midterm Project](assign/midterm.html) | Due Fri, Mar 15th
 [Homework 5](assign/hw5.html) | Due Friday, March 29th
 [Homework 6](https://www.gradescope.com/courses/701550/assignments/4292377/) | Due Friday, April 5th
+[Homework 7](assign/hw7.html) | Due Friday, April 12th
+
 
 
 <!--
 
 [Midterm Project](assign/midterm.html) | Due Wed, Oct 25th
 [Homework 6](https://www.gradescope.com/courses/701550/assignments/4292377/) | Due Friday, Nov 10th
-[Homework 7](assign/hw7.html) | Due Friday, Nov 17th
 [Final Project](assign/final.html) | Due Friday, Dec 8th
 -->
