@@ -549,9 +549,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 34 (15-Nov)</th>
-      <th>Day 35 (17-Nov)</th>
-      <th>Day 36 (19-Nov)</th>
+      <th>Day 34 (15-Apr)</th>
+      <th>Day 35 (17-Apr)/th>
+      <th>Day 36 (19-Apr)</th>
     </tr>
   </thead>
   <tbody>
