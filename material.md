@@ -588,36 +588,41 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (27-Nov to 1-Dec)</button>
+<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (22-Apr to 26-Apr)</button>
 <div id="week_13" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 35 (27-Nov)</th>
-      <th>Day 36 (29-Nov)</th>
-      <th>Day 37 (1-Dec)</th>
+      <th>Day 37 (22-Apr)</th>
+      <th>Day 38 (24-Apr)</th>
+      <th>Day 39 (26-Apr)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eb3773f-b093-4630-8e18-ae810038ea47'>Lambdas</a></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Slides</td>
+      <td><a href='slides/day37_lambdas.pdf'>Lambdas</a></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='questions/day35.html'>Day 35</a></td>
+      <td><a href='questions/day38.html'>Day 37</a></td>
       <td>N/A</td>
-       <td><a href='questions/day37.html'>Day 37</a></td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex35.html'>Exercise 35</a></td>
-      <td>Work on final project</td>
-      <td><a href='exercise/ex37.html'>Exercise 37</a></td>
+      <td>Final Project</td>
+      <td>Final Project</td>
+      <td>Final Project</td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -628,6 +633,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<!--
 <button type="button" id="week_14_toggle" class="week_control_button">Week 14 (4-Dec to 8-Dec)</button>
 <div id="week_14" class="collapsible">
 <table>
@@ -642,7 +648,6 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eb3773f-b093-4630-8e18-ae810038ea47'>Lambdas</a></td>
       <td>N/A</td>
       <td>N/A</td>
     </tr>
