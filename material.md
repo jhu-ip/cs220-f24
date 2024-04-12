@@ -550,7 +550,7 @@ the materials for that week.
     <tr>
       <th></th>
       <th>Day 34 (15-Apr)</th>
-      <th>Day 35 (17-Apr)/th>
+      <th>Day 35 (17-Apr)</th>
       <th>Day 36 (19-Apr)</th>
     </tr>
   </thead>
