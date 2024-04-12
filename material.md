@@ -498,9 +498,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 31 (6-Nov)</th>
-      <th>Day 32 (8-Nov)</th>
-      <th>Day 33 (10-Nov)</th>
+      <th>Day 31 (6-Apr)</th>
+      <th>Day 32 (8-Apr)</th>
+      <th>Day 33 (10-Apr)</th>
     </tr>
   </thead>
   <tbody>
