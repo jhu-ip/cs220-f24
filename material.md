@@ -628,7 +628,7 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td></td>
       <td><a href='resources/FinalReview.pdf'>Final Exam Review Questions</a></td>
-      <td><a href='resources/FinalReview_SOLUTIONS.pdf'>Final Exam Review Solutions</td>
+      <td><a href='resources/FinalReview_SOLUTIONS.pdf'>Final Exam Review Solutions</a></td>
     </tr>
   </tbody>
 </table>
