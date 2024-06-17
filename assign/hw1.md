@@ -169,7 +169,7 @@ Keep in mind that error messages should be printed to `stderr` and not
 ### Development Requirements
 
 In the homework folder of your private repository
-(`2024-spring-student-JHED`), you should create a new subfolder named
+(`2024-fall-student-JHED`), you should create a new subfolder named
 `homework/hw1`. In that `homework/hw1` subfolder, you will create your program in a new
 C source file named `coins.c`. At the top of the file, add a comment with
 your six character alphanumeric **Hopkins ID**. (Please do not include
@@ -393,6 +393,8 @@ and late days). You will want to save your late days for the future
 assignments as they will be more involved.</p>
 </div>
 </div>
+
+<!-- kp: do we want to update this link to a newer one? -->
 
 You should also make sure that your code has good
 style. You can look at the [coding style guidelines

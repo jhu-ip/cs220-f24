@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Intermediate Programming, Spring 2024"
+title: "Intermediate Programming, Fall 2024"
 category: "home"
 ---
 
-Welcome to the website for Intermediate Programming (Spring 2024) at
+Welcome to the website for Intermediate Programming (Fall 2024) at
 <a class="external" target="_blank" href="https://www.jhu.edu/">Johns Hopkins University</a>!
 
 *Course description*: This course teaches intermediate to advanced
@@ -28,7 +28,7 @@ Use the links at the top of the page to navigate the site.
 team collaborations as well as group and individual
 source code version control. Scaffolding/starter files of
 exercises, homeworks, and projects are shared via the course
-<a class="external" target="_blank" href="https://github.com/jhu-ip/cs220-sp24-public">public repository</a>.
+<a class="external" target="_blank" href="https://github.com/jhu-ip/cs220-f24-public">public repository</a>.
 You may never share your private repository with anyone else.
 
 <a class="external" target="_blank" href="https://piazza.com/jhu/spring2024/en601220/home">Piazza</a> is

@@ -8,7 +8,7 @@ category: "syllabus"
 **Syllabus**\
 **Computer Science EN.601.220**\
 **Intermediate Programming**\
-**Spring 2024 (4 credits, E, in person)**
+**Fall 2024 (4 credits, E, in person)**
 
 *(The instructors reserve the right to make adjustments to this
 syllabus as deemed necessary with notice.)*
