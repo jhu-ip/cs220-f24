@@ -18,15 +18,15 @@ Then add, commit, and push both material.csv and material.md.
 You can click on the header for a specific week to expand or collapse
 the materials for that week.
 
-<button type="button" id="week_1_toggle" class="week_control_button">Week 1 (22-Jan to 26-Jan)</button>
+<button type="button" id="week_1_toggle" class="week_control_button">Week 1 (26-Aug to 30-Aug)</button>
 <div id="week_1" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 1 (22-Jan)</th>
-      <th>Day 2 (24-Jan)</th>
-      <th>Day 3 (26-Jan)</th>
+      <th>Day 1 (26-Aug)</th>
+      <th>Day 2 (28-Aug)</th>
+      <th>Day 3 (30-Aug)</th>
     </tr>
   </thead>
   <tbody>
@@ -70,15 +70,15 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (29-Jan to 2-Feb)</button>
+<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (2-Sep to 6-Sep)</button>
 <div id="week_2" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 4 (29-Jan)</th>
-      <th>Day 5 (31-Jan)</th>
-      <th>Day 6 (2-Feb)</th>
+      <th>Day 4 (2-Sep)</th>
+      <th>Day 5 (4-Sep)</th>
+      <th>Day 6 (6-Sep)</th>
     </tr>
   </thead>
   <tbody>
@@ -116,15 +116,15 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (5-Feb to 9-Feb)</button>
+<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (9-Sep to 13-Sep)</button>
 <div id="week_3" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 7 (5-Feb)</th>
-      <th>Day 8 (7-Feb)</th>
-      <th>Day 9 (9-Feb)</th>
+      <th>Day 7 (9-Sep)</th>
+      <th>Day 8 (11-Sep)</th>
+      <th>Day 9 (13-Sep)</th>
       
     </tr>
   </thead>
@@ -166,15 +166,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (12-Feb to 16-Feb)</button>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (16-Sep to 20-Sep)</button>
 <div id="week_4" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 10 (12-Feb)</th>
-      <th>Day 11 (14-Feb)</th>
-      <th>Day 12 (16-Feb)</th>
+      <th>Day 10 (16-Sep)</th>
+      <th>Day 11 (18-Sep)</th>
+      <th>Day 12 (20-Sep)</th>
     </tr>
   </thead>
   <tbody>
@@ -219,15 +219,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (19-Feb to 23-Feb)</button>
+<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (23-Sep to 27-Sep)</button>
 <div id="week_5" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 13 (19-Feb)</th>
-      <th>Day 14 (21-Feb)</th>
-      <th>Day 15 (23-Feb)</th>
+      <th>Day 13 (23-Sep)</th>
+      <th>Day 14 (25-Sep)</th>
+      <th>Day 15 (27-Sep)</th>
     </tr>
   </thead>
   <tbody>
@@ -264,15 +264,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (26-Feb to 1-March)</button>
+<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (30-Sep to 4-Oct)</button>
 <div id="week_6" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 16 (26-Feb)</th>
-      <th>Midterm Project (28-Feb)</th>
-      <th>Day 17 (1-March)</th>
+      <th>Day 16 (30-Sep)</th>
+      <th>Day 17 (2-Oct)</th>
+      <th>Midterm Project (4-Oct)</th>
     </tr>
   </thead>
   <tbody>
@@ -312,15 +312,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (4-March to 8-March)</button>
+<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (7-Oct to 11-Oct)</button>
 <div id="week_7" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Midterm Project (4-March)</th>
-      <th>Midterm Project (6-March)</th>
-      <th>Midterm Exam (8-March)</th>
+      <th>Day 19 (7-Oct)</th>
+      <th>Midterm Project (9-Oct)</th>
+      <th>Midterm Project (11-Oct)</th>
     </tr>
   </thead>
   <tbody>
@@ -357,15 +357,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_8_toggle" class="week_control_button">Week 8 (11-March to 15-March)</button>
+<button type="button" id="week_8_toggle" class="week_control_button">Week 8 (14-Oct to 18-Oct)</button>
 <div id="week_8" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 22 (11-March)</th>
-      <th>Day 23 (13-March)</th>
-      <th>Day 24 (15-March)</th>
+      <th>Midterm Exam (14-Oct)</th>
+      <th>Day 23 (16-Oct)</th>
+      <th>Fall Break (18-Oct)</th>
     </tr>
   </thead>
   <tbody>
@@ -402,15 +402,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_9_toggle" class="week_control_button">Week 9 (25-March to 29-March)</button>
+<button type="button" id="week_9_toggle" class="week_control_button">Week 9 (21-Oct to 25-Oct)</button>
 <div id="week_9" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 25 (25-March)</th>
-      <th>Day 26 (27-March)</th>
-      <th>Day 27 (29-March)</th>
+      <th>Day 25 (21-Oct)</th>
+      <th>Day 26 (23-Oct)</th>
+      <th>Day 27 (25-Oct)</th>
     </tr>
   </thead>
   <tbody>
@@ -447,15 +447,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_10_toggle" class="week_control_button">Week 10 (1-April to 5-April)</button>
+<button type="button" id="week_10_toggle" class="week_control_button">Week 10 (28-Oct to 1-Nov)</button>
 <div id="week_10" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 28 (1-April)</th>
-      <th>Day 29 (3-April)</th>
-      <th>Day 30 (5-April)</th>
+      <th>Day 28 (28-Oct)</th>
+      <th>Day 29 (30-Oct)</th>
+      <th>Day 30 (1-Nov)</th>
     </tr>
   </thead>
   <tbody>
@@ -492,15 +492,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_11_toggle" class="week_control_button">Week 11 (8-April to 12-April)</button>
+<button type="button" id="week_11_toggle" class="week_control_button">Week 11 (4-Nov to 8-Nov)</button>
 <div id="week_11" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 31 (8-Apr)</th>
-      <th>Day 32 (10-Apr)</th>
-      <th>Day 33 (12-Apr)</th>
+      <th>Day 31 (4-Nov)</th>
+      <th>Day 32 (6-Nov)</th>
+      <th>Day 33 (8-Nov)</th>
     </tr>
   </thead>
   <tbody>
@@ -543,15 +543,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_12_toggle" class="week_control_button">Week 12 (15-April to 19-April)</button>
+<button type="button" id="week_12_toggle" class="week_control_button">Week 12 (11-Nov to 15-Nov)</button>
 <div id="week_12" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 34 (15-Apr)</th>
-      <th>Day 35 (17-Apr)</th>
-      <th>Day 36 (19-Apr)</th>
+      <th>Day 34 (11-Nov)</th>
+      <th>Day 35 (13-Nov)</th>
+      <th>Day 36 (15-Nov)</th>
     </tr>
   </thead>
   <tbody>
@@ -588,15 +588,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (22-Apr to 26-Apr)</button>
+<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (18-Nov to 22-Nov)</button>
 <div id="week_13" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 37 (22-Apr)</th>
-      <th>Day 38 (24-Apr)</th>
-      <th>Day 39 (26-Apr)</th>
+      <th>Day 37 (18-Nov)</th>
+      <th>Day 38 (20-Nov)</th>
+      <th>Day 39 (22-Nov)</th>
     </tr>
   </thead>
   <tbody>
@@ -633,16 +633,16 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
-<button type="button" id="week_14_toggle" class="week_control_button">Week 14 (4-Dec to 8-Dec)</button>
+
+<button type="button" id="week_14_toggle" class="week_control_button">Week 14 (2-Dec to 6-Dec)</button>
 <div id="week_14" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 38 (4-Dec)</th>
-      <th>Day 39 (6-Dec)</th>
-      <th>Day 40 (8-Dec)</th>
+      <th>Day 38 (2-Dec)</th>
+      <th>Day 39 (4-Dec)</th>
+      <th>Day 40 (6-Dec)</th>
     </tr>
   </thead>
   <tbody>
@@ -678,7 +678,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
--->
+
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
