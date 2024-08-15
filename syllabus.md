@@ -45,22 +45,22 @@ Ali Darvish, Senior Lecturer\
 Office hours: TBD
 
 Kai Presler-Marshall, Lecturer\
-<mailto:kpresle1@jhu.edu>,\
+<mailto:kai@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/">https://www.cs.jhu.edu/</a>,\
-Office hours: TBD
-Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/">https://wse.zoom.us/my/</a>
+Office hours: TBD \
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/kpresler">https://wse.zoom.us/my/kpresler</a>
 
 Joanne Selinski, Associate Teaching Professor\
 <mailto:joanne@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/~joanne">https://www.cs.jhu.edu/~joanne</a>,\
-Office hours: TBD
+Office hours: TBD \
 Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/jselinski">https://wse.zoom.us/my/jselinski</a>
 
 Patricio Simari, Senior Lecturer\
 <mailto:psimari@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/">https://www.cs.jhu.edu/</a>,\
-Office hours: TBD
-Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/">https://wse.zoom.us/my/</a>
+Office hours: TBD \
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/pdsimari">https://wse.zoom.us/my/pdsimari</a>
 
 
 **Meetings - all in Maryland 310**
@@ -258,7 +258,7 @@ their understanding of topics. There is a wealth of programming
 information on the internet; if one explanation doesn't make sense, you
 can probably find another that does.
 
-**Homework policy**
+**Homework submission policy**
 
 Assignments will be due **by 11:00 pm on the due date** (unless
 otherwise indicated on the course Piazza site). Non-compiling code will
@@ -348,13 +348,13 @@ points towards your final grade.
 -   28% - individual coding homework (5 total; point values and due dates vary; will be
     listed on Canvas)
 
--   14% - midterm coding project (in teams, due ??)
+-   14% - midterm coding project (in teams, due October 23)
 
--   15% - midterm exam (in class, Friday October ?)
+-   15% - midterm exam (in class, Monday October 14)
 
--   14% - final coding project (in teams, due ??)
+-   14% - final coding project (in teams, due December 6)
 
--   15% - final exam (time assigned by registrar in Computing Common Block A)
+-   15% - final exam (day/time assigned by registrar in Computing Common Block A)
 
 -   3% - fudge grade (see above)
 
