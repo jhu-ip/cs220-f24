@@ -50,17 +50,18 @@ Kai Presler-Marshall, Lecturer\
 Office hours: TBD
 Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/">https://wse.zoom.us/my/</a>
 
+Joanne Selinski, Associate Teaching Professor\
+<mailto:joanne@cs.jhu.edu>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~joanne">https://www.cs.jhu.edu/~joanne</a>,\
+Office hours: TBD
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/jselinski">https://wse.zoom.us/my/jselinski</a>
+
 Patricio Simari, Senior Lecturer\
 <mailto:psimari@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/">https://www.cs.jhu.edu/</a>,\
 Office hours: TBD
 Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/">https://wse.zoom.us/my/</a>
 
-Joanne Selinaki, Associate Teaching Professor\
-<mailto:joanne@cs.jhu.edu>,\
-<a class="external" target="_blank" href="https://www.cs.jhu.edu/~joanne">https://www.cs.jhu.edu/~joanne</a>,\
-Office hours: TBD
-Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/jselinski">https://wse.zoom.us/my/jselinski</a>
 
 **Meetings - all in Maryland 310**
 
@@ -72,7 +73,7 @@ Sec 03 (Darvish): MWF 1:30 pm – 2:45 pm
 
 Sec 04 (Selinski): MWF 3:00 pm – 4:15 pm
 
-Sec 03 (Presler-Marshall): MWF 8:30 am – 9:45 am
+Sec 05 (Presler-Marshall): MWF 8:30 am – 9:45 am
 
 **Course Assistants**
 
@@ -266,7 +267,7 @@ double-check that all submitted code fully compiles with no errors or
 warnings in the standard course compilation environment. We will
 accommodate late submissions in several specific ways:
 
-- Each student will be permitted to use up to six "late days" total
+- Each student will be permitted to use up to 6 "late days" total
     during the semester on the individual assignments only. However,
     at most 2 late days may be used on any one assignment.
 
@@ -276,7 +277,9 @@ accommodate late submissions in several specific ways:
 -   Each delay of up to 24 hours past the 11:00 pm deadline for an
     individual assignment counts as one late day.
 
--   Students do not need to ask permission or notify us when using any late days; deductions will be automatically taken since your final homework submission will be the one graded. 
+-   Students do not need to ask permission or notify us when using any
+    late days; deductions will be automatically taken since your final
+    homework submission will be the one graded.
 
 -   If you submit an assignment late and are out of late days (have used
     all 6 previously), you will be deducted 1% of the possible
@@ -308,27 +311,52 @@ important part of your learning, and as such we *strongly* recommend
 that you complete them fully. We will review the solutions to these
 exercises either fully or just the important parts in class sessions. In
 general, we will *not* post solutions to the in-class exercises --- if
-you are having trouble completing an exercise, seek help office hours,
+you are having trouble completing an exercise, seek help in office hours,
 or on Piazza. We will have an option for you to submit your solutions on
 gradescope and get autograder feedback on them.
 
+**Code Reviews (Optional)**
+
+Students can benefit from close review of their code in discussion
+with a course instructor. You have the option to schedule one or more
+reviews of your individual coding assignments with a course
+instructor. These will typically take 30-45 minutes each, and
+successful completion of code reviews for 2 different assignments will
+result in a 100% "fudge" grade. "Successful completion" is based on
+your ability to explain your code to the instructor and answer what-if
+questions about it. Each code review must take place within the three
+weeks immediately following that homework's due date.
+
+**Fudge Grade**
+
+Students typically do better in some aspects of the course than
+others. The "fudge grade" is a percentage of your final grade that
+duplicates your best performance from the individual grade categories listed below 
+or the optional code reviews, but not group projects. For example, if you
+successfully complete 2 code reviews, then your fudge grade will
+contribute a full 3 points to your final grade. If you don't have 2
+successful code reviews, but your highest individual grade category is
+90% in handwritten homework, then your fudge grade will contribute 2.7
+points towards your final grade.
+
 **Grading Breakdown**
 
--   5% - Particpation (physical attendance and active participation)
+-   5% - particpation (physical attendance and active participation)
     - <emph>You must attend 85% of the classes to receive full attendance credit (i.e., your attendance/participation percentage will be divided by 0.85 and then capped at 100%.) </emph>
--   6% - handwritten homework (3 total; due dates vary, will be listed
-    on Piazza)
+-   6% - handwritten homework (3 total; due dates vary; will be posted on Canvas)
 
--   30% - individual coding homework (4.5 total; due dates vary, will be
-    listed on Piazza)
+-   28% - individual coding homework (5 total; point values and due dates vary; will be
+    listed on Canvas)
 
--   14% - midterm coding project (in teams)
+-   14% - midterm coding project (in teams, due ??)
 
--   15% - midterm exam (in class, Friday March 8th)
+-   15% - midterm exam (in class, Friday October ?)
 
--   15% - final coding project (in teams)
+-   14% - final coding project (in teams, due ??)
 
--   15% - final exam
+-   15% - final exam (time assigned by registrar in Computing Common Block A)
+
+-   3% - fudge grade (see above)
 
 All scores and grader commentary on your homework and project
 submissions, as well as exams, will be available via Gradescope. Please
