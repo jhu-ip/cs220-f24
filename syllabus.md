@@ -28,17 +28,14 @@ syllabus as deemed necessary with notice.)*
     projects in both languages.
 
 -   **Prerequisites**\
-    Gateway Computing (AP CS, EN.500.112/113/114/132/133/134, or
+    C+ grade or better in Gateway Computing (AP CS, EN.500.112/113/114/132/133/134, or
     equivalent)\
     Students are expected to be able to create and run simple programs
     and object-oriented solutions in a general-purpose programming
     language (such as Java or Python) prior to enrolling in this course.
 
 -   **Required, Elective or Selective Elective**\
-    EN.500.112/113/114 (Gateway Computing) and/or\
-    EN.600.226/EN.601.226 (Data Structures) and/or\
-    EN.500.132/133/134 (Bootcamp) and/or\
-    equivalent
+    Required course for computer science majors and minors.
 
 **Instructors**
 
@@ -47,19 +44,35 @@ Ali Darvish, Senior Lecturer\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/~darvish/">https://www.cs.jhu.edu/~darvish/</a>,\
 Office hours: TBD
 
-Misha Kazhdan, Professor\
-<mailto:misha@cs.jhu.edu>,\
-<a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a>,\
-Office hours: Thu 12:00-1:00pm over zoom 
-Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/mishak">https://wse.zoom.us/my/mishak</a>
+Kai Presler-Marshall, Lecturer\
+<mailto:kpresle1@jhu.edu>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/">https://www.cs.jhu.edu/</a>,\
+Office hours: TBD
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/">https://wse.zoom.us/my/</a>
 
-**Meetings**
+Patricio Simari, Senior Lecturer\
+<mailto:psimari@cs.jhu.edu>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/">https://www.cs.jhu.edu/</a>,\
+Office hours: TBD
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/">https://wse.zoom.us/my/</a>
 
-Sec 01 (Darvish): MWF 10:00 am – 11:15 am, Maryland 310
+Joanne Selinaki, Associate Teaching Professor\
+<mailto:joanne@cs.jhu.edu>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~joanne">https://www.cs.jhu.edu/~joanne</a>,\
+Office hours: TBD
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/jselinski">https://wse.zoom.us/my/jselinski</a>
 
-Sec 02 (Darvish): MWF 12:00 pm – 1:15 pm, Mudd 26
+**Meetings - all in Maryland 310**
 
-Sec 03 (Kazhdan): MWF 1:30 pm – 2:45 pm, Hodson 210
+Sec 01 (Simari): MWF 10:00 am – 11:15 am
+
+Sec 02 (Darvish): MWF 12:00 pm – 1:15 pm
+
+Sec 03 (Darvish): MWF 1:30 pm – 2:45 pm
+
+Sec 04 (Selinski): MWF 3:00 pm – 4:15 pm
+
+Sec 03 (Presler-Marshall): MWF 8:30 am – 9:45 am
 
 **Course Assistants**
 
@@ -86,17 +99,16 @@ See the course [website staff page](staff.html).
 The following sites will be used heavily during the course:
 
 -   The course website is
-    [jhu-ip.github.io/cs220-f23/](https://jhu-ip.github.io/cs220-f23/).
+    [jhu-ip.github.io/cs220-f24/](https://jhu-ip.github.io/cs220-f24/).
 
 -   Piazza
-    (<a class="external" target="_blank" href="https://piazza.com/jhu/fall2023/en601220">https://piazza.com/jhu/fall2023/en601220</a>)
-    will serve as our primary communication channel. You should sign up
-    for Piazza immediately.
+    (<a class="external" target="_blank" href="https://piazza.com/jhu/fall2024/601220fa24">https://piazza.com/jhu/fall2024/601220fa24</a>)
+    will serve as our primary communication channel. Access through Canvas, and you can then link any prior accounts to your JHU account.
 
 -   Gradescope (<a class="external" target="_blank" href="https://www.gradescope.com/">https://www.gradescope.com/</a>) will be used
-    for assignment submission, grades and feedback; Entry code is "RK2EPK".
+    for assignment submission, grades and feedback; access is through Canvas.
 
--   Panopto will be used for video distribution.
+-   Panopto will be used for video distribution (required viewing before class sessions).
 
 -   (<a class="external" target="_blank" href="https://en.cppreference.com/w/">en.cppreference.com</a>) and
     (<a class="external" target="_blank" href="https://www.cplusplus.com/reference/">www.cplusplus.com</a>) provide
@@ -176,7 +188,7 @@ resources, particularly office hours.
 
 **Course Approach**
 
-We take a flipped-classroom approach to the course,
+We take a flipped classroom approach to the course,
 with an emphasis on active learning during class sessions. Part of your
 homework will be to prepare for class by watching video lessons. During
 class sessions you will extend your learning by working with your
@@ -195,23 +207,25 @@ session, students are expected to go through the related material posted
 on the course website and/or Piazza, and finish the coding exercises
 from the prior session.
 
-Students will be expected to complete a variety of computer programming
-assignments, as well as written homework assignments. Some assignments
-may be done in pairs or groups as specified; others must be completed
-alone. See the specific assignment page for details of what is permitted
-for a particular assignment. Failure to follow these guidelines will be
-a violation of the academic ethics code, and reported and penalized
-accordingly.
+Students will be expected to complete a variety of computer
+programming assignments, as well as written homework assignments. Some
+assignments may be done in pairs or groups as specified; others must
+be completed individually, with assistance as needed from course staff
+only. See the specific assignment page for details of what is
+permitted for a particular assignment. Failure to follow these
+guidelines will be a violation of the academic ethics code, and
+reported and penalized accordingly.
 
-While code reuse is an important feature of modern programming, for this
-course, you will be expected to write most of the code for your homework
-assignments from scratch. You may use language libraries (according to
-assignment specifications), and you may always reuse your own code from
-prior work in the course. Downloading full or partial solutions from the
-internet, however, is an **ethics violation**. Using code from class
-examples, slides, or the textbook is acceptable, but you must cite the
-source properly in a comment in your code describing the original
-source.
+While code reuse is an important feature of modern programming, for
+this course, you will be expected to write most of the code for your
+homework assignments from scratch. You may use language libraries
+(according to assignment specifications), and you may always reuse
+your own code from prior work in the course. Downloading full or
+partial solutions from the internet (including chatGPT or similar
+AI-assisted coding tools), however, is an **ethics violation**. Using
+code from class examples, slides, or the textbook is acceptable, but
+you must cite the source properly in a comment in your code describing
+the original source.
 
 There will be one midterm exam and a final exam. The midterm exam will
 cover the topics of the first half of the class (C material) and the
@@ -252,25 +266,24 @@ double-check that all submitted code fully compiles with no errors or
 warnings in the standard course compilation environment. We will
 accommodate late submissions in several specific ways:
 
--   There will be a 30-minute grace period after the deadline during
-    which assignments can still be submitted, but will receive a penalty
-    of a deduction of 10% of the points possible on the assignment.
+- Each student will be permitted to use up to six "late days" total
+    during the semester on the individual assignments only. However,
+    at most 2 late days may be used on any one assignment.
 
--   Each student will be permitted to use up to 4 "late days" total
-    during the semester on the individual coding assignments only.
-    However, at most 2 late days may be used on any one assignment.
+-   No late days are allowed for partner-based
+    coding projects (midterm and final).
 
 -   Each delay of up to 24 hours past the 11:00 pm deadline for an
-    individual coding assignment counts as one late day.
+    individual assignment counts as one late day.
 
--   No late days are allowed for handwritten homework or partner-based
-    coding projects.
+-   Students do not need to ask permission or notify us when using any late days; deductions will be automatically taken since your final homework submission will be the one graded. 
 
--   Students may not use a grace period with a late day. For example, if
-    Student A turns in her homework at 11:45 pm on the day it is due
-    (only 45 minutes past the original deadline), then she will be using
-    one late day. Furthermore, if Student B turns in his homework at
-    11:15 pm on the day after it is due, he'll be using two late days.
+-   If you submit an assignment late and are out of late days (have used
+    all 6 previously), you will be deducted 1% of the possible
+    assignment points per hour (or fraction) that it is submitted
+    late. For example, if you have no late days and submit an
+    assignment 75 minutes late, you will lose 2% of the possible
+    assignment points off the top.
 
 Given these policies, please plan to get your homework done and turned
 in early so that if you encounter any last-minute delays, it will not
