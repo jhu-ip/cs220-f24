@@ -11,18 +11,12 @@ title: Homework 5
 <div class='content'>
 <ul>
 <li>You are expected to work individually.</li>
-<li>Due: Friday March 29 at 11pm (Baltimore time).</li>
+<li>Due: Friday November 1 at 11pm (Baltimore time).</li>
 <li>This assignment is worth 70 points.</li>
 </ul>
 </div>
 </div>
 
-<div class='admonition caution'>
-<div class='title'>Late-day Deadline</div>
-<div class='content'>
-It looks like a "ugrad" outage is planned on Sat 3/30. For this reason, if you are planning to use late days on this homework, Saturday will not be counted as a late day. In other words, you get an extra late day if you are using late days on this homework. The original deadline remains the same Friday 3/29, 11pm.
-</div>
-</div>
 
 
 ## Learning Objectives
@@ -113,7 +107,7 @@ follows `t` more frequently than `x` does, and that a space follows `.` more fre
 thing` and considering the letter `h`, then `e` appears after `h` three times, `i` appears after
 `h` one time, and no other letters ever appear after `h.`  So the
 probability that `e` follows `h` is 0.75 (75%); the probability that `i`
-follows `h` is 0.25 (25\%); the probability that any other letter follows
+follows `h` is 0.25 (25%); the probability that any other letter follows
 `h` is 0.
 
 Using a _level-1_ analysis, you could produce some randomly
@@ -121,7 +115,7 @@ generated _Tom Sawyer_ text by picking some character to begin with
 and then repeatedly choosing the next character based on the previous one
 and the probabilities revealed by the original text analysis. Here's an example:
 
-**Level 1:** ``Shand tucthiney m?" le ollds mind Theybooure
+**Level 1:** Shand tucthiney m? le ollds mind Theybooure
 He, he s whit Pereg lenigabo Jodind alllld ashanthe ainofevids tre
 lin--p asto oun theanthadomoere
 
@@ -198,7 +192,7 @@ They've inst theird, and skiff pearthey're stookind, to that. I
 Level 4: TOM'S minished at. Tom stopped in then! Tom, it himself been seen a man ice
 ```
 
-As you can see from this example, newlines are an expected part of the output (as long as your source text also contains newlines, of course).  Thus, to help make the boundaries between each level analysis clear, your program should print a line with three tilde (`~`) characters between each different line of output text.
+As you can see from this example, newlines are an expected part of the output (as long as your source text also contains newlines, of course).  Thus, to help make the boundaries between each level analysis clear, your program should print a line with three tilde (`~`) characters between each different level of output text.
 
 
 ## Hints and Suggestions
