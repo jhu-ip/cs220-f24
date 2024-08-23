@@ -47,6 +47,23 @@ import remarkMath from 'remark-math'
 
 In your private git repository (created for you on Github under jhu-ip organization), create a new folder named **homework**, then a subfolder named **hw0**. In that *hw0* subfolder, create three separate C source files with names given below that output **exactly** the messages shown below. In each case, the desired output message should be followed by a newline ("\n") character.
 
+The name and behavior of each program is as follows:
+
+file name | desired output
+--------- | --------------
+*gold.c* | Simone Biles wins Gold in Women's All-Round Gymnastics!
+*silver.c* | The Silver in the 10m air pistol mixed team event goes to Yuysuf Dikec and Sevval Ilayda Tarhan.
+*bronze.c* | US Men's Volleyball Team wins the Bronze medal at the Paris 2024 Olympics.
+
+At the top of each source file, add two comment lines that provide your anonymous Hopkins ID (the random 6 characters code) and the current date:
+
+```c
+// J3V6G9
+// August 28, 2024
+```
+
+Compile and execute each of the three programs and ensure that they give the output exactly as shown. Finally, add all three source files to your git repository, commit them with an appropriate message, and push.
+
 <div class='admonition tip'>
 <div class='title'>Tip</div>
 <div class='content'>
@@ -56,23 +73,6 @@ starting point for the source files for this homework.
 </p>
 </div>
 </div>
-
-At the top of each source file, add two comment lines that provide your anonymous Hopkins ID (the random 6 characters code) and the current date:
-
-```c
-// J3V6G9
-// August 28, 2024
-```
-
-The behavior of each program is as follows:
-
-file name | desired output
---------- | --------------
-*gold.c* | Simone Biles wins Gold in Women's All-Round Gymnastics!
-*silver.c* | The Silver in the 10m air pistol mixed team event goes to Yuysuf Dikec and Sevval Ilayda Tarhan.
-*bronze.c* | US Men's Volleyball Team wins the Bronze medal at the Paris 2024 Olympics.
-
-Compile and execute each of the three programs and ensure that they give the output exactly as shown. Finally, add all three source files to your git repository, commit them with an appropriate message, and push.
 
 ### Part 2
 Create a text file named gitlog.txt which demonstrates your recent git activity by typing the command `git log > gitlog.txt`
