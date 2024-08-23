@@ -558,6 +558,12 @@ for students on academic probation and graduating students.
 
 You need to be be aware and comply with the deadlines of "add a course", "drop a course", etc. Also, for more information on grading policies and other academic policies, see <https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/undergraduate-policies/academic-policies/grading-policies/>
 
+**Computer Issues**
+
+Student laptop repair is available in the Technology Store, Levering Hall Sherwood Room (113) Monday-Friday from 9:00am-5:00pm. Please contact 410-516-0448 or <techstore@jhu.edu> for questions. More info at [Information Technology Services & Support](https://studentaffairs.jhu.edu/computing/services-support/).
+
+Student Outreach and Support has loaner machines. Specifically, reach out using [Hannah Marks's appointment request page](https://calendly.com/hmarks3).
+
 ## The Office of Academic Support at JHU
 
 All programs are free to students.  Please see below for specifics:
