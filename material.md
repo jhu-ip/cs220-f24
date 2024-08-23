@@ -64,6 +64,7 @@ the materials for that week.
 </table>
 </div>
 
+<!--
 <button type="button" id="week_2_toggle" class="week_control_button">Week 2 (2-Sep to 6-Sep)</button>
 <div id="week_2" class="collapsible">
 <table>
@@ -669,6 +670,8 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+-->
+
 
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
@@ -699,7 +702,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_13';
+    var active_week_id = 'week_1';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
