@@ -7,11 +7,18 @@ title: GitHub SSH & Token authentication
 <div class='admonition info'>
   <div class="title">Info</div>
   <div class="content">
-<p>This document explains how you can create an SSH public/private keypair for your ugrad account and configure your private repository to have Git communicate with the remote server using SSH. Doing this will avoid the need for you to type your Github username and password every time you do a remote operation such as <code>git pull</code> or <code>git push</code>.</p>
-<p>We recommend that you read and follow these instructions carefully. If you follow them exactly, they should work.</p>
-<p>Please note that configuring your Github account and private repository to use SSH is <strong>completely optional</strong>. If you would prefer to use HTTPS and use your Github username and password to authenticate, that is perfectly fine.</p>
+	Follow <strong>one</strong> of the sets of instructions below.  You do not need to do both.
   </div>
 </div>
+
+<p>Public GitHub repositories (such as the <code>cs220-f24-public</code> repository that we have starter code in) can be cloned without providing any authentication (because they are, after all, <em>public</em>, GitHub doesn't need to know who you are -- anyone can clone them without authenticating themself).  For private repositories, such as those that you'll use for homeworks and projects in this class, you <strong>are</strong> required to authenticate yourself, so that GitHub can verify that you are supposed to have access to this repository.  This page discusses two ways that you can do so.
+
+<ol>
+	<li>HTTPS + Token Authentication</li>
+	<li>SSH Authentication</li>
+</ol>
+  
+<p>We recommend that you read and follow these instructions carefully. If you follow them exactly, they should work.</p>
 
 
 ## Option 1: HTTPS + Token Authentication
