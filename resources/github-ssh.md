@@ -39,28 +39,32 @@ As the error message tells us, GitHub removed support for password authenticatio
 
 To setup a SSH key, log into your GitHub account via a web browser of your choice.  Then, click your account icon in the top-right corner, and then click Settings:
 
-![GitHub User Menu](img/gh-user-menu-1.png)
-![GitHub User Menu Settings](img/gh-user-menu-settings.png)
+
+<img alt="screenshot showing GitHub User Menu button" class="keep_original_size" src="img/gh-user-menu-1.png">
+<img alt="screenshot showing GitHub User Menu" class="keep_original_size" src="img/gh-user-menu-settings.png">
 
 Then, click on Developer Settings from the menu on the left side of the screen:
 
-![GitHub Developer Settings](img/gh-developer-settings.png)
+<img alt="screenshot showing GitHub developer settings" class="keep_original_size" src="img/gh-developer-settings.png">
 
 From here, click `Personal Access Tokens`, then `Tokens (classic)`
 
-![GitHub Access Tokens](img/gh-access-tokens.png)
+<img alt="screenshot showing GitHub Access Tokens" class="keep_original_size" src="img/gh-access-tokens.png">
 
 Now, click on `Generate New Token`, then `Generate New Token (classic)`:
 
-![Generate New Token](img/gh-new-token.png)
+<img alt="screenshot showing generating a new access token" class="keep_original_size" src="img/gh-new-token.png">
+
 
 From here, we'll give the new token we're creating a name, select an expiration date, and configure what permissions you want to grant this token.  This gets back to the idea of security from above -- if someone malicious steals your access token, they won't have full access to your account, only reduced access.  Obviously, we still want to keep our tokens secure.  A reasonable name for your token might be **CS 220**.  Either select **No Expiration Date**, or **Custom** and then enter an expiration date after the end of the semester (if you select **No Expiration Date**, GitHub will warn you that this is not a best practice.  It is not wrong, but no expiration is somewhat more convenient).  Finally, tick the box next to the `repo` permission, which will give this token full access to all repositories your account can create.  We don't need any other permissions, so at this point you can scroll to the bottom and click Generate Token.
 
-![New GitHub Token Settings](img/gh-new-token-settings.png)
+<img alt="screenshot showing settings for new GitHub token" class="keep_original_size" src="img/gh-new-token-settings.png">
+
 
 You should now get a message saying that your token has been created, as well as telling you what it is.  **Save your token somewhere that you won't use it** and now, you can use this token whenever Git asks you for a password.  Make sure that you clone all repositories using the HTTPS URL (which is the default one on GitHub):
 
-![Clone via HTTPS](img/gh-clone-https.png)
+<img alt="screenshot showing how to clone a repository via HTTPS" class="keep_original_size" src="img/gh-clone-https.png">
+
 
 
 ## Option 2: SSH Authentication
