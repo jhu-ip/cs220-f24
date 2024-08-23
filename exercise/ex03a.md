@@ -14,7 +14,7 @@ title: Exercise 3-A
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
-<p>If you are new to the course and need a temporary cs account, make a private post on <a href="http://piazza.com/jhu/spring2024/en601220" target="_blank">Piazza</a> to instructors with subject "Request for a cs temp account". You should also do <a href="ex03b.html">Exercise 3-B</a> after you complete Parts 1-4 below.</p>
+<p>If you are new to the course and need a temporary cs account, make a private post on <a href="https://piazza.com/class/lxumtcm3y2n4i6" target="_blank">Piazza</a> to instructors with subject "Request for a cs temp account". You should also do <a href="ex03b.html">Exercise 3-B</a> after you complete Parts 1-4 below.</p>
 </div>
 </div>
 
@@ -72,7 +72,7 @@ This will make it so that you don't have to keep retyping your password every ti
 ### Part 2
 Set up your own personal git repository:
 
-**1.**	You should have received (and accepted) an invitation email to join course Github organization. When you login to your Github, you should be able to see personal repo with the name `2024-spring-student-JHED` where "JHED" is your actual JHED name. This will serve as your private space from here on
+**1.**	You should have received (and accepted) an invitation email to join course Github organization. When you login to your Github, you should be able to see personal repo with the name `2024-fall-student-JHED` where "JHED" is your actual JHED name. This will serve as your private space from here on
 that you will use for your exercises and homeworks. Only you and the course staff have access to your private repo.
 
 You probably need to change to the course organization (i.e. jhu-ip) on the left menu as follows:
@@ -107,7 +107,7 @@ you should use the <code>https</code> Github URL, not the <code>ssh</code> Githu
 ### Part 3
 Create a file on ugrad and add it to the repository:
 
-**1.**	Use `cd` to move into your _2024-spring-student-JHED_ folder (your cloned copy of your repository).  Use `pwd` to check that you are in the right place.
+**1.**	Use `cd` to move into your _2024-fall-student-JHED_ folder (your cloned copy of your repository).  Use `pwd` to check that you are in the right place.
 
 **2.**	Use a text editor (_emacs_ or _vim_) to create a new text file called `README` there. Put _your name, JHED, class year, and major(s)/minor(s)_ in your _README_.
 
@@ -127,7 +127,7 @@ Create a file on ugrad and add it to the repository:
 
 **10.**	Type the command `git log` to see what it reports.
 
-**11.**	Edit your _README_ file, and within the file, add a line saying that this is your personal repository for Intermediate Programming at JHU for Spring 2024, and your section number.
+**11.**	Edit your _README_ file, and within the file, add a line saying that this is your personal repository for Intermediate Programming at JHU for Fall 2024, and your section number.
 
 **12.**	Check the status again with `git status`, then commit your updated _README_ using `git commit -am "updated README"`. 
 
@@ -151,7 +151,7 @@ Prepare your files as if you were asked to submit them to Gradescope for a homew
 
 **3.**	Use `cd ~` or just `cd` to move into your home directory.
 
-**4.**	Now move (the command `mv` means move, rather than copy) your _.zip_ file to your current location using the following command: `mv 2024-spring-student-JHED/ex03.zip .`. Note that the `.` in the command above indicates that the desired destination is your current working directory.
+**4.**	Now move (the command `mv` means move, rather than copy) your _.zip_ file to your current location using the following command: `mv 2024-fall-student-JHED/ex03.zip .`. Note that the `.` in the command above indicates that the desired destination is your current working directory.
 
 **5.**	Check to make sure your _.zip_ file contains the right files with `unzip -l` (this says to list the files that would come out if you were to unzip the bundle) as indicated below: `unzip -l ex03.zip`. This will cause a list of the files and directories in your zip file to be displayed on the screen.  It is your chance to double-check that you have included everything.  If you wanted to actually unzip your bundled files (though you do not need to do so now), you could use the unzip command as above, but without the `-l` flag.  You will often want to unzip your file in a folder which is different than the one where you created it, to avoid overwriting your original _README_ and _gitlog.txt_ files.
 
@@ -174,7 +174,7 @@ Prepare your files as if you were asked to submit them to Gradescope for a homew
 <div class='admonition info'>
 <div class='title'>Windows Users</div>
 <div class='content'>
-<p>You will need <code>pscp</code> here which should have been installed already automatically when you installed Putty. Copy your <em>.zip</em> file from ugrad to your local computer using <code>pscp &lt;source&gt; &lt;destination&gt;</code>. For example, you could open a Command Prompt window or Powershell and type <code>pscp css22006@ugradx.cs.jhu.edu:2024-spring-student-JHED/ex03.zip .</code>. For Windows where WinSCP has been installed: connect to ugradx using the WinSCP interface and drag the <em>ex03.zip</em> file from the ugradx side to your local computer's side.</p>
+<p>You will need <code>pscp</code> here which should have been installed already automatically when you installed Putty. Copy your <em>.zip</em> file from ugrad to your local computer using <code>pscp &lt;source&gt; &lt;destination&gt;</code>. For example, you could open a Command Prompt window or Powershell and type <code>pscp css22006@ugradx.cs.jhu.edu:2024-fall-student-JHED/ex03.zip .</code>.  If you're using <strong>Git Bash</strong> instead, you can run <code>scp</code> instead of <code>pscp</code>.  For Windows where WinSCP has been installed: connect to ugradx using the WinSCP interface and drag the <em>ex03.zip</em> file from the ugradx side to your local computer's side.</p>
 </div>
 </div>
 
