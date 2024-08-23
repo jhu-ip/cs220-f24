@@ -57,11 +57,11 @@ starting point for the source files for this homework.
 </div>
 </div>
 
-At the top of each source file, be sure to add two comment lines that indicate your name followed by your JHED ID, e.g.:
+At the top of each source file, add two comment lines that provide your anonymous Hopkins ID (the random 6 characters code) and the current date:
 
 ```c
-// Homer Simpson
-// hsimp999
+// J3V6G9
+// August 28, 2024
 ```
 
 The behavior of each program is as follows:
@@ -69,7 +69,7 @@ The behavior of each program is as follows:
 file name | desired output
 --------- | --------------
 *gold.c* | Simone Biles wins Gold in Women's All-Round Gymnastics!
-*silver.c* | The Silver in the 10m air pistol mixed team even goes to Yuysuf Dikec and Sevval Ilayda Tarhan.
+*silver.c* | The Silver in the 10m air pistol mixed team event goes to Yuysuf Dikec and Sevval Ilayda Tarhan.
 *bronze.c* | US Men's Volleyball Team wins the Bronze medal at the Paris 2024 Olympics.
 
 Compile and execute each of the three programs and ensure that they give the output exactly as shown. Finally, add all three source files to your git repository, commit them with an appropriate message, and push.
@@ -88,7 +88,7 @@ Create a text file named gitlog.txt which demonstrates your recent git activity 
 Create a *.zip* file named *hw0.zip* which contains exactly the following four files: **gold.c, silver.c, bronze.c, gitlog.txt**. Copy the *hw0.zip* file to your local machine, and submit it via Gradescope.  Specifically:
 
 * Log into Canvas, access the EN.601.220 site.
-* Click on the Gradescope link in the sidebar menu to access our course site for assessments and grading.
+* Click on the Gradescope link in the sidebar menu to access our course site for assessments and grading feedback.
 * Click Homework 0.
 * Click Submit (or Resubmit if you have done this before).
 * Drag your zip file onto the Drag & Drop box (or click the box and select the zip file).
@@ -108,4 +108,12 @@ Two notes regarding automatic checks for programming assignments:
 * Passing an automatic check is not itself worth points. (There might be a nominal, low point value like 0.01 associated with a check, but that will not count in the end.) The checks exist to help you and the graders find obvious errors. This will be true for most of the assignments; the actual grades are given manually by the graders, along with feedback comments.
 
 * The automatic checks cover some of the requirements set out in the assignment, but not all. For this assignment, you will notice that the *silver.c* program is checked, but not the other two. In general, *it is up to you to test your own work* and ensure your programs satisfy all stated requirements. Passing all the automatic checks does not necessarily mean you will earn all the points.
+
+### Style & Grading
+We do not have super strict style checks in this course, but
+you should be following best practices for readable code. For this first simple 
+assignment that means good spacing, consistent indentation and bracket
+placements, and lines no longer than 80 characters.
+
+Some points in our grading scheme will be for style and submission, including correct file names and the remainder will be for functionality. Code that does not compile will receive a 0 grade. 
 
