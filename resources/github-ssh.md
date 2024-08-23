@@ -11,7 +11,7 @@ title: GitHub SSH & Token authentication
   </div>
 </div>
 
-<p>Public GitHub repositories (such as the <code>cs220-f24-public</code> repository that we have starter code in) can be cloned without providing any authentication (because they are, after all, <em>public</em>, GitHub doesn't need to know who you are -- anyone can clone them without authenticating themself).  For private repositories, such as those that you'll use for homeworks and projects in this class, you <strong>are</strong> required to authenticate yourself, so that GitHub can verify that you are supposed to have access to this repository.  This page discusses two ways that you can do so.
+<p>Public GitHub repositories (such as the <code>cs220-f24-public</code> repository that we have starter code in) can be cloned without providing any authentication (because they are, after all, <em>public</em>, GitHub doesn't need to know who you are -- anyone can clone them without authenticating themself).  For private repositories, such as those that you'll use for homeworks and projects in this class, you <strong>are</strong> required to authenticate yourself, so that GitHub can verify that you are supposed to have access to this repository.  This page discusses two ways that you can do so.</p>
 
 <ol>
 	<li>HTTPS + Token Authentication</li>
