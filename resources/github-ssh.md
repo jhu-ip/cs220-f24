@@ -37,7 +37,7 @@ fatal: Authentication failed for 'https://github.com/jhu-ip/ExampleRepo/'
 
 As the error message tells us, GitHub removed support for password authentication in Summer 2021.  From a security perspective, this is a Good Idea -- using access tokens, which we'll setup shortly, make it easier to contain security breaches, and reduce the potential harm from said breach.  It does, however, make our life slightly more difficult.
 
-To setup a SSH key, log into your GitHub account via a web browser of your choice.  Then, click your account icon in the top-right corner, and then click Settings:
+To setup an authentication token, log into your GitHub account via a web browser of your choice.  Then, click your account icon in the top-right corner, and then click Settings:
 
 
 <img alt="screenshot showing GitHub User Menu button" class="keep_original_size" src="img/gh-user-menu-1.png">
