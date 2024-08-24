@@ -61,7 +61,7 @@ From here, we'll give the new token we're creating a name, select an expiration 
 <img alt="screenshot showing settings for new GitHub token" class="keep_original_size" src="img/gh-new-token-settings.png">
 
 
-You should now get a message saying that your token has been created, as well as telling you what it is.  **Save your token somewhere that you won't use it** and now, you can use this token whenever Git asks you for a password.  Make sure that you clone all repositories using the HTTPS URL (which is the default one on GitHub):
+You should now get a message saying that your token has been created, as well as telling you what it is.  **Save your token somewhere that you won't lose it** and now, you can use this token whenever Git asks you for a password.  Make sure that you clone all repositories using the HTTPS URL (which is the default one on GitHub):
 
 <img alt="screenshot showing how to clone a repository via HTTPS" class="keep_original_size" src="img/gh-clone-https.png">
 
