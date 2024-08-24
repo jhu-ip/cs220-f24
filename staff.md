@@ -2,6 +2,7 @@
 layout: default
 title: "Course Staff"
 category: "staff"
+show_in_nav: false
 ---
 
 # Course Staff
