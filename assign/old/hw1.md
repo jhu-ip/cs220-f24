@@ -9,13 +9,11 @@ title: Homework 1
 <div class='content'>
 <ul>
 <li>You are expected to work individually.</li>
-<li><strong>Due: Friday, February 9th at 11pm EST (Baltimore time).</strong></li>
+<li><strong>Due: Friday, September 13th at 11pm EST (Baltimore time).</strong></li>
 <li><em>This assignment is worth 60 points.</em></li>
 </ul>
 </div>
 </div>
-
-*Update 2/4*: added a few clarifications
 
 ## Learning Objectives
 <div class='admonition success'>
@@ -33,52 +31,65 @@ title: Homework 1
 
 ### Overview
 
-In this homework, you will write a program to help the user keep track of
-a collection of coins of arbitrary denominations.
+This assignment is inspired by the "Rocks, Stones, Sand in a Jar"
+story that you may have heard with respect to prioritizing important
+things in your life. You can read about it in many forms, such as
+[this
+one](https://medium.com/@adityakothadiya/another-side-of-the-rocks-pebbles-and-sand-story-9e26a6cc0af). In
+this homework, you will write a program to help the user keep track of
+tasks of different time durations, as long as they fit into a "jar" of a
+specified size.
 
 ### Program Requirements
 
-When the program starts, it prompts the user to enter the number
-of different coin denominations that will be used ("`How many denominations?`"). Then,
-for each coin denomination, it prompts the user for a one-letter identifier
-and the value of the coin ("`Enter coin identifier and value in cents:`").
-Note that the coin identifiers are case-sensitive, so "`d`" and "`D`" are
-different identifiers.  Also note that the value of the coin must be an
-integer (i.e., the program should represent coin values as integers.)
+We will use 10 as the maximum number of different task types/durations
+that the program must handle and 600 (10 hours) as the maximum number
+of minutes that any user can specify as their jar size. When the
+program starts, it prompts the user to enter the number of minutes
+they have available, ie, the size of their current jar. It must do error
+handling to make sure that the input is an integer and that it is a
+valid value (not negative and no more than the program maximum of
+600). (See below for prompts and error handling details.)
 
-Once all of the coin identifiers and values
-are recorded, the program enters a command loop. Each time the
-program prompts the user to enter a command ("`Enter a command:`"),
-the user enters the one-letter name of the command, and if the command
-requires additional values to be entered, reads those values. It then
-carries out the command and if the command
-was not "`q`" (quit), continues the command loop.
+Next the program will prompt the user to enter pairs of task
+identifiers and time durations. The identifiers must be single
+characters (such as 'i' for interview or 'm' for meeting) and the
+durations must be integers. You do not need to do any error checking
+on these values. The user must enter 0 0 as the input to end this
+process. Your program must enforce the program limit of at most 10
+different type/duration pairs.
+
+Once all of the task identifiers and durations are recorded, the
+program enters a command loop. Each time the program prompts the user
+to enter a command the user enters the one-letter name of the command,
+and any additional values needed for the command.  The program then
+carries out the command if legal as described below, and if the
+command was not "`q`" (quit), continues the command loop.
 
 There are four commands:
 
-* The `a` command adds to the count of how many coins of a specified
-  type are in the user's collection. The `a` command is followed by
-  the one-letter identifier of the type of coin to be added, followed by
-  the integer count of how many of that type of coin should be added to
-  the collection. For example `a p 11` would add 11 of the type of coin
-  identified by the letter "`p`" to the collection.
-* The `r` command subtracts from the count of how many coins of a specified
-  type are in the user's collection. It behaves like the "`a`" command, except
-  that the count of the specified type of coin is subtracted from the collection
-  rather than added to the collection.
-* The `s` command summarizes the user's coin collection. The output is
+* The `a` command adds to the count of how many tasks of a specified
+  type are in the user's jar. The `a` command is followed by
+  the one-letter identifier matching the type of task to be added (case-sensitive), followed by
+  the integer count of how many of that type of task should be added to
+  the jar. For example `a p 11` would add 11 of the type of task
+  identified by the letter "`p`" to the jar. Your program must check to make sure that the request can be satisfied within the user specified size of their jar, otherwise reject the command as invalid. 
+* The `r` command subtracts from the count of how many tasks of a specified
+  type are in the user's jar. It behaves like the "`a`" command, except
+  that the count of the specified type of task is subtracted from the jar
+  rather than added to the jar. Your program must check to make sure that the request can be satisfied, ie, that the requested type and quantity already exist in the jar. 
+* The `s` command summarizes the user's task jar. The output is
   formatted as comma-separated values (CSV).  First, a header line with
-  the fields "Identifier", "Face Value", "Count", and "Total Value" is
-  printed. Then, for each kind of coin (in the order in which they were
+  the fields "Identifier", "Duration", "Count", and "Total Time" is
+  printed. Then, for each kind of task (in the order in which they were
   entered at the beginning of the program execution), an output line is
-  printed with the coin identifier, coin face value, number of that
-  type of coin in the user's collection, and total value of that kind of
-  coins in cents. For both the header line and the lines summarizing each
-  kind of coin, fields are separated by comma ("`,`") characters, with
+  printed with the task identifier, task duration, number of that
+  type of task in the user's jar, and total value of that kind of
+  tasks in minutes. For both the header line and the lines summarizing each
+  kind of task, fields are separated by comma ("`,`") characters, with
   no space before or after each comma. At the end of the summary, a line
-  reading "<code class='highlighter-rouge'>Overall value of collection: $<i>X</i>.<i>YY</i></code>"
-  is printed, where *X* and *YY* indicate the number of dollars and cents
-  in the overall value of the collection.
+  reading "<code class='highlighter-rouge'>Total time in jar: <i>X</i>.<i>YY</i></code> out of <i>H</i>.<i>MM</i> possible"
+  is printed, where *X* and *YY* indicate the number of hours and minutes in the jar based on user input, and *H* and *MM* indicate the number of hours and minutes that the jar could hold.
 * The `q` command causes the command loop to terminate.
 
 Note that the user could also terminate the command loop by typing
@@ -100,25 +111,30 @@ text `Bye!` and then exits with the exit code 0.
 
 The program should handle errors as follows.
 
-If either
+If one of
 
-* the user doesn't enter a valid value for the number of coin denominations when prompted, or
-* the user doesn't enter a valid identifier and value for a coin denomination when prompted, or
-* the user doesn't enter a valid identifier and count after an `a` or `r` command,
+* the user doesn't enter a valid value for their jar size when prompted, or
+* the user doesn't enter a valid identifier and duration for a task during set-up, or
+* the user doesn't enter a valid identifier and quantity for a task after an `a` or `r` command
 
 then the program should print the line "`Invalid input`" to `stderr` and exit with the
 exit code 1.
 
-If the user enters a coin identifier as part of an `a` or `r` command that
-is not one of the identifiers entered by the user prior to the command loop,
-the program should print the line "`Unknown coin identifier`" to `stderr`
-and exit with the exit code 2. Note that the "`Unknown coin identifier`"
-should only be printed if the coin identifier and count were both
+If the user enters a task identifier as part of an `a` or `r` command that
+is not one of the identifiers entered by the user during set-up,
+the program should print the line "`Unknown task identifier`" to `stderr`
+and exit with the exit code 2. Note that the "`Unknown task identifier`"
+should only be printed if the task identifier and count were both
 read successfully.
 
-If the user enters a command character that is not one of `a`, `r`, `s`, or
-`q`, then the program should print the line "`Invalid command`" to `stderr`
-and exit with the exit code 3.
+If one of
+
+* the `a` command can't be satisfied because it would overfill the jar, or
+* the `r` command can't be satisfied because the jar doesn't have that many of the requested task type, or
+* the user enters a command character that is not one of `a`, `r`, `s`, or
+`q`, 
+
+then the program should print the line "`Invalid command`" to `stderr` and continue with the next command loop.
 
 If no errors occur and the program completes normally, it should exit with the
 exit code 0.
@@ -136,17 +152,17 @@ to use functions for this assignment.)
 
 Note that you do not need to handle the following kinds of errors:
 
-* The user specifies that there are fewer than 1 or more than 20 coin denominations
-* The user enters the same coin identifier more than once when entering the
-  coin denominations
+* The user specifies that there are fewer than 1 or more than 20 task denominations
+* The user enters the same task identifier more than once when entering the
+  task denominations
 * The user uses the "`r`" command in a way that would cause the count
-  of a particular kind of coin to drop below 0
+  of a particular kind of task to drop below 0
 
 ### Hints and Specifications
 
-The program should allow the user to enter up to 20 coin denominations.
+The program should allow the user to enter up to 20 task denominations.
 You should use arrays to keep track of the identifiers for each type of
-coin and their face values. For example,
+task and their face values. For example,
 
 ```c
 char identifiers[MAX_DENOMINATIONS];
@@ -154,11 +170,11 @@ int values[MAX_DENOMINATIONS];
 ```
 
 You'll also want to have a variable indicating how many different types
-of coins there are, so that you know which elements of these arrays are
+of tasks there are, so that you know which elements of these arrays are
 used.
 
-It will also make sense to have an array keeping track of how many coins
-of each type are in the user's collection.
+It will also make sense to have an array keeping track of how many tasks
+of each type are in the user's jar.
 
 Make sure that your program consistently checks the return value of `scanf`
 so that it knows whether or not input was read successfully.
@@ -171,7 +187,7 @@ Keep in mind that error messages should be printed to `stderr` and not
 In the homework folder of your private repository
 (`2024-fall-student-JHED`), you should create a new subfolder named
 `homework/hw1`. In that `homework/hw1` subfolder, you will create your program in a new
-C source file named `coins.c`. At the top of the file, add a comment with
+C source file named `tasks.c`. At the top of the file, add a comment with
 your six character alphanumeric **Hopkins ID**. (Please do not include
 your name or JHED so as to allow for blind grading.)
 
@@ -214,7 +230,7 @@ demonstrated below:
 Example 1
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc -std=c11 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
 How many denominations? <b>5</b>
 Enter coin identifier and value in cents: <b>p 1</b>
@@ -233,7 +249,7 @@ n,5,0,0
 d,10,0,0
 q,25,3,75
 D,100,4,400
-Overall value of collection: $5.12
+Overall value of jar: $5.12
 Enter a command: <b>q</b>
 Bye!
 </pre></div>
@@ -260,7 +276,7 @@ d,10,0,0
 q,25,2,50
 D,100,0,0
 t,200,3,600
-Overall value of collection: $6.50
+Overall value of jar: $6.50
 Enter a command: <b>q</b>
 Bye!
 </pre></div>
@@ -281,7 +297,7 @@ Identifier,Face Value,Count,Total Value
 A,1,0,0
 B,13,12,156
 C,51,9,459
-Overall value of collection: $6.15
+Overall value of jar: $6.15
 Enter a command: <i>[...user types Control-D...]</i>Bye!
 </pre></div>
 
@@ -320,7 +336,7 @@ Enter a command: <b>s</b>
 Identifier,Face Value,Count,Total Value
 p,1,211,211
 n,5,19,95
-Overall value of collection: $3.06
+Overall value of jar: $3.06
 Enter a command: <b>a Y 5</b>
 Unknown coin identifier
 </pre></div>
@@ -341,7 +357,7 @@ Identifier,Face Value,Count,Total Value
 A,1,0,0
 B,17,9,153
 C,57,0,0
-Overall value of collection: $1.53
+Overall value of jar: $1.53
 Enter a command: <b>j</b>
 Invalid command
 </pre></div>
