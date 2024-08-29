@@ -10,6 +10,7 @@ reference solutions:
   5. array contents are passed by reference; array parameter type is int[]
   6. const ar[]
   7. tricky to conceive; might use extra space
+  8. function will call itself forever until the program crashes
 ---
 
 1. How do you get the number of elements of an integer array?
@@ -19,3 +20,4 @@ reference solutions:
 5. How does passing an integer array to a function differ from passing a single integer variable into a function?
 6. How can you make an array that is passed into a function not modifiable?
 7. What is the down-side to recursion?
+8. What happens if your recursive function does not have a base case?
