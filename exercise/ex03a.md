@@ -65,7 +65,7 @@ This will make it so that you don't have to keep retyping your password every ti
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
-<p>Note: If you have a Mac you might want to do this in your Terminal later if you want to keep a local copy of your git repo there too.</p>
+<p>Note: If you have a Mac you might want to do this in your Terminal later if you want to keep a local copy of your git repo there too.  If you're on Windows, you can do the same thing through Git Bash.</p>
 </div>
 </div>
 
@@ -104,7 +104,7 @@ you should use the <code>https</code> Github URL, not the <code>ssh</code> Githu
 <div class='admonition caution'>
 <div class='title'>Caution</div>
 <div class='content'>
-<p>If you get an "authentication failed" error, it means you need to generate a personal access token on Github and use that instead of your password. Follow the steps <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">here</a> to make it happen!</p>
+<p>If you get an "authentication failed" error, it means you need to generate a personal access token on Github and use that instead of your password. Follow the steps in Part 2 of this exercise to make it happen!</p>
 </div>
 </div>
 
