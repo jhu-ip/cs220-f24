@@ -31,6 +31,16 @@ show_in_nav: false
     Office hours: Tuesday 4-6pm<br>
     Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/s/5158173954">https://wse.zoom.us/s/5158173954</a>
     </div>
+	
+  <div class="card">
+    <img alt="Kai photo" src="{{site.baseurl}}/img/staffpix/kai.jpg">
+    <div class="details">
+    <span class="name_and_role">Kai Presler-Marshall</span><br>
+    Department of Computer Science<br>
+    Email: <a href="mailto:kai@cs.jhu.edu">kai@cs.jhu.edu</a><br>
+	Office hours: Tuesday 1:00 - 3:00 PM; Friday 10:15 AM - 12:00 PM<br>
+    Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/kpresler">https://wse.zoom.us/my/kpresler</a>
+    </div>
   </div>
 </div>
 
