@@ -150,7 +150,10 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td></td>
+      <td>
+	  <a href="https://cplusplus.com/reference/cmath/">C Math Library Reference</a>
+	  <a href="https://stackoverflow.com/a/8114031">Discussion `assert`</a>
+	  </td>
       <td></td>
       <td></td>
     </tr>
