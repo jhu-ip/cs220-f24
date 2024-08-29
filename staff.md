@@ -11,9 +11,9 @@ show_in_nav: false
 
 <div class="card_container">
   <div class="card">
-    <img alt="Misha photo" src="{{site.baseurl}}/img/staffpix/misha.jpg">
+    <img alt="Patricio photo" src="{{site.baseurl}}/img/staffpix/simari.jpg">
     <div class="details">
-    <span class="name_and_role">Misha Kazhdan</span><br>
+    <span class="name_and_role">Patricio Simari</span><br>
     Department of Computer Science<br>
     Email: <a href="mailto:misha@cs.jhu.edu">misha@cs.jhu.edu</a><br>
     Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a><br>
@@ -36,35 +36,20 @@ show_in_nav: false
 
 ## Head Course Assistants
 
-<!--
-<div class="card_container">
-
-<div class="card">
-  <img alt="Anika photo" src="{{site.baseurl}}/img/staffpix/anika.jpg">
-  <div class="details">
-   <span class="name_and_role">Anika Misra</span><br>
-   Email: <a href="mailto:amisra7@jhu.edu">amisra7@jhu.edu</a><br>
-  </div>
-</div>
-
-</div>
--->
 
 <div class="card_container">
-
-<div class="card">
-  <img alt="Chloe Donelan" src="{{site.baseurl}}/img/staffpix/chloe.jpg">
-  <div class="details">
-   <span class="name_and_role">Chloe Donelan</span><br>
-   Email: <a href="mailto:cdonela1@jhu.edu">cdonela1@jhu.edu</a><br>
-  </div>
-</div>
 
 <div class="card">
   <img alt="Aprina Wang" src="{{site.baseurl}}/img/staffpix/aprina.jpg">
   <div class="details">
    <span class="name_and_role">Aprina Wang</span><br>
-   Email: <a href="mailto:awang100@jhu.edu">awang100@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Minoo Kim" src="{{site.baseurl}}/img/staffpix/minoo.jpg">
+  <div class="details">
+   <span class="name_and_role">Minoo Kim</span><br>
   </div>
 </div>
 
@@ -73,6 +58,6 @@ show_in_nav: false
 
 ## Course Assistants
 
-See the CA office hours page for the CA office hours schedule.
-
+Office Hours Schedule for all TAs/CAs:
+# [CA Office Hours Schedule](https://docs.google.com/spreadsheets/d/1wYlaZmnEq4qRg585t8u-eAzFdM-2uQ2sdM5blxb0GJY/edit#gid=2050153296)
 
