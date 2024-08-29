@@ -59,37 +59,53 @@ on these values. The user must enter 0 0 as the input to end this
 process. Your program must enforce the program limit of at most 10
 different type/duration pairs.
 
-Once all of the task identifiers and durations are recorded, the
-program enters a command loop. Each time the program prompts the user
-to enter a command the user enters the one-letter name of the command,
-and any additional values needed for the command.  The program then
-carries out the command if legal as described below, and if the
-command was not "`q`" (quit), continues the command loop.
+Once all of the task identifiers and durations are recorded (set-up is
+complete), the program enters a command loop. Each time the program
+prompts the user to enter a command the user enters the one-letter
+name of the command, and any additional values needed for the command.
+The program then carries out the command if legal as described below,
+and if the command was not "`q`" (quit), continues the command loop.
 
 There are four commands:
 
 * The `a` command adds to the count of how many tasks of a specified
-  type are in the user's jar. The `a` command is followed by
-  the one-letter identifier matching the type of task to be added (case-sensitive), followed by
-  the integer count of how many of that type of task should be added to
-  the jar. For example `a p 11` would add 11 of the type of task
-  identified by the letter "`p`" to the jar. Your program must check to make sure that the request can be satisfied within the user specified size of their jar, otherwise reject the command as invalid. 
-* The `r` command subtracts from the count of how many tasks of a specified
-  type are in the user's jar. It behaves like the "`a`" command, except
-  that the count of the specified type of task is subtracted from the jar
-  rather than added to the jar. Your program must check to make sure that the request can be satisfied, ie, that the requested type and quantity already exist in the jar. 
+  type are in the user's jar. The `a` command should be followed by
+  the one-letter identifier matching the type of task to be added
+  (case-sensitive) and then the integer count of how many of that type
+  of task should be added to the jar. For example `a p 11` would add
+  11 of the type of task identified by the letter "`p`" to the jar, if
+  that many will fit based on the associated duration. Your program
+  must check to make sure that the request can be satisfied within the
+  user specified size of their jar, otherwise reject the command as
+  invalid (command loop continues).
+
+* The `r` command removes a given quantity of tasks of a specified
+  type from the user's jar. It behaves like the "`a`" command, except
+  that the count of the specified type of task is subtracted from the
+  jar rather than added to the jar. For example `r m 5` would remove 5
+  of the type of task identified as "`m`" from the jar, if it
+  currently holds at least that many. Your program must check to make
+  sure that the request can be satisfied, ie, that the requested type
+  and quantity already exist in the jar, otherwise reject the command
+  as invalid (command loop continues).
+
 * The `s` command summarizes the user's task jar. The output is
-  formatted as comma-separated values (CSV).  First, a header line with
-  the fields "Identifier", "Duration", "Count", and "Total Time" is
-  printed. Then, for each kind of task (in the order in which they were
-  entered at the beginning of the program execution), an output line is
-  printed with the task identifier, task duration, number of that
-  type of task in the user's jar, and total value of that kind of
-  tasks in minutes. For both the header line and the lines summarizing each
-  kind of task, fields are separated by comma ("`,`") characters, with
-  no space before or after each comma. At the end of the summary, a line
-  reading "<code class='highlighter-rouge'>Total time in jar: <i>X</i>.<i>YY</i></code> out of <i>H</i>.<i>MM</i> possible"
-  is printed, where *X* and *YY* indicate the number of hours and minutes in the jar based on user input, and *H* and *MM* indicate the number of hours and minutes that the jar could hold.
+  formatted as comma-separated values (CSV).  First, a header line
+  with the fields "Identifier", "Duration", "Count", and "Total Time"
+  is printed. Then, for each kind of task (in the order in which they
+  were entered at the beginning of the program execution), an output
+  line is printed with the task identifier, task duration, number of
+  that type of task in the user's jar, and total value of that kind of
+  tasks in minutes. For both the header line and the lines summarizing
+  each kind of task, fields are separated by comma ("`,`") characters,
+  with no space before or after each comma. At the end of the summary,
+  a line reading "<code class='highlighter-rouge'>Total time in jar:
+  <i>X</i>:<i>YY</i> out of <i>H</i>:<i>MM</i> possible"</code> is
+  printed, where *X* and *YY* indicate the number of hours and minutes
+  in the jar based on "`a`" and "`r`" commands, and *H* and *MM*
+  indicate the number of hours and minutes that the jar could hold
+  based on the user given input.
+
 * The `q` command causes the command loop to terminate.
 
 Note that the user could also terminate the command loop by typing
@@ -114,8 +130,8 @@ The program should handle errors as follows.
 If one of
 
 * the user doesn't enter a valid value for their jar size when prompted, or
-* the user doesn't enter a valid identifier and duration for a task during set-up, or
-* the user doesn't enter a valid identifier and quantity for a task after an `a` or `r` command
+* the user doesn't enter appropriate input for an identifier or duration for a task during set-up, or
+* the user doesn't enter appropriate input for an identifier or quantity for a task after an `a` or `r` command
 
 then the program should print the line "`Invalid input`" to `stderr` and exit with the
 exit code 1.
@@ -125,12 +141,12 @@ is not one of the identifiers entered by the user during set-up,
 the program should print the line "`Unknown task identifier`" to `stderr`
 and exit with the exit code 2. Note that the "`Unknown task identifier`"
 should only be printed if the task identifier and count were both
-read successfully.
+read successfully. Also note that identifier matching is case-sensitive.
 
 If one of
 
 * the `a` command can't be satisfied because it would overfill the jar, or
-* the `r` command can't be satisfied because the jar doesn't have that many of the requested task type, or
+* the `r` command can't be satisfied because the jar doesn't have enough of the requested task type, or
 * the user enters a command character that is not one of `a`, `r`, `s`, or
 `q`, 
 
@@ -139,7 +155,7 @@ then the program should print the line "`Invalid command`" to `stderr` and conti
 If no errors occur and the program completes normally, it should exit with the
 exit code 0.
 
-Note that all of your code can be in a single `main` function, so a `return`
+Note that all of your code can be in a single `main` function, so any `return`
 statement will exit the program. E.g., the statement
 
 ```c
@@ -150,28 +166,24 @@ will exit the program with the exit code 1. (In future assignments, we will
 expect you to write functions to modularize your program, but you don't need
 to use functions for this assignment.)
 
-Note that you do not need to handle the following kinds of errors:
+You do not need to handle the following kinds of errors:
 
-* The user specifies that there are fewer than 1 or more than 20 task denominations
-* The user enters the same task identifier more than once when entering the
-  task denominations
-* The user uses the "`r`" command in a way that would cause the count
-  of a particular kind of task to drop below 0
+* The user enters the same task identifier more than once during set-up
+* The user enters a negative duration for a task during set-up
 
 ### Hints and Specifications
 
-The program should allow the user to enter up to 20 task denominations.
 You should use arrays to keep track of the identifiers for each type of
-task and their face values. For example,
+task and their durations. (Remember there can be at most 10 of each.) For example, 
 
 ```c
-char identifiers[MAX_DENOMINATIONS];
-int values[MAX_DENOMINATIONS];
+char identifiers[MAX_TYPES];
+int durations[MAX_TYPES];
 ```
 
-You'll also want to have a variable indicating how many different types
-of tasks there are, so that you know which elements of these arrays are
-used.
+assuming MAX_TYPES has been defined appropriately. You'll also need a
+variable to count how many different types of tasks are entered during
+set-up, so that you know which elements of these arrays are used.
 
 It will also make sense to have an array keeping track of how many tasks
 of each type are in the user's jar.
@@ -197,24 +209,24 @@ git repository.  After you complete your work on the assignment, you will
 be asked to submit a *gitlog.txt* file, just as in [Homework 0](hw0.html). However,
 we expect your log for this homework to show more activity.
 
-Recall that your code is always expected to compile without errors
-or warnings, on the ugrad servers. Submissions which do not compile
+*Your code is always expected to compile without errors
+or warnings on the ugrad servers.* Submissions which do not compile
 properly may earn zero points, so be sure to submit to Gradescope early
 and often! And once you get a good start on the assignment, always have
-some earlier compiling version of your work pushed up to Github.
+some earlier compiling version of your work pushed to Github.
 
-### Example Runs
+### Sample Runs
 
 <div class="admonition caution">
 <div class='title'>Caution</div>
 <div class='content'>
 <p>
-Note that when you test your program in a terminal using the example inputs
+When you test your program in a terminal using the example inputs
 shown below, the result should be <em>exactly</em> what is shown below,
 including spacing. Note that
 <ul>
-  <li>Each prompt should end with a space, but should <em>not</em> have a newline at the end</li>
-  <li>Each output line in response to the "`s`" and "`q`" commands <em>should</em> end with a newline</li>
+  <li>Each prompt should end with a space, but should <em>not</em> have a newline at the end, with the exemption of the prompt to enter type identifiers and durations.</li>
+  <li>Each output line in response to the "`s`" and "`q`" commands <em>should</em> end with a newline.</li>
 </ul>
 </p>
 </div>
@@ -230,8 +242,10 @@ demonstrated below:
 Example 1
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra tasks.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
 $ <b>./a.out</b>
+
+
 How many denominations? <b>5</b>
 Enter coin identifier and value in cents: <b>p 1</b>
 Enter coin identifier and value in cents: <b>n 5</b>
@@ -257,7 +271,10 @@ Bye!
 Example 2 (Canadian edition)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>./a.out</b>
+
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
 $ <b>./a.out</b>
 How many denominations? <b>6</b>
 Enter coin identifier and value in cents: <b>p 1</b>
@@ -281,30 +298,37 @@ Enter a command: <b>q</b>
 Bye!
 </pre></div>
 
-Example 3 (quitting using Control-D)
+Example 3 (invalid remove quantity and quitting using Control-D)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
 $ <b>./a.out</b>
-How many denominations? <b>3</b>
-Enter coin identifier and value in cents: <b>A 1 </b>
-Enter coin identifier and value in cents: <b>B 13</b>
-Enter coin identifier and value in cents: <b>C 51</b>
-Enter a command: <b>a B 12</b>
-Enter a command: <b>a C 9</b>
-Enter a command: <b>s</b>
-Identifier,Face Value,Count,Total Value
-A,1,0,0
-B,13,12,156
-C,51,9,459
-Overall value of jar: $6.15
-Enter a command: <i>[...user types Control-D...]</i>Bye!
+How many minutes to spend? 480
+Enter task type identifiers and durations in minutes,
+one per line; enter '0 0' to stop
+i 15
+m 60
+M 90
+0 0
+Enter a command [a, r, s, q]: a m 2
+Enter a command [a, r, s, q]: s
+Identifier,Duration,Count,Total Time
+i,15,0,0
+m,60,2,120
+M,90,0,0
+Total time in jar: 2:00 out of: 8:00 possible
+Enter a command [a, r, s, q]: r m 3
+Invalid command
+Enter a command [a, r, s, q]: <i>...user types Control-D...]</i>Bye!
 </pre></div>
 
 Example 4 (user enters invalid number of denominations)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>./a.out</b>
+
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
 $ <b>./a.out</b>
 How many denominations? <b>foobar</b>
 Invalid input
@@ -313,7 +337,10 @@ Invalid input
 Example 5 (user enters invalid input for coin identifier/value)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>./a.out</b>
+
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
 $ <b>./a.out</b>
 How many denominations? <b>3</b>
 Enter coin identifier and value in cents: <b>p 1</b>
@@ -325,7 +352,10 @@ Invalid input
 Example 6 (invalid coin identifier)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>./a.out</b>
+
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
 $ <b>./a.out</b>
 How many denominations? <b>2</b>
 Enter coin identifier and value in cents: <b>p 1</b>
@@ -344,7 +374,10 @@ Unknown coin identifier
 Example 7 (invalid command)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc -std=c11 -pedantic -Wall -Wextra coins.c</b>
+$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>./a.out</b>
+
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
 $ <b>./a.out</b>
 How many denominations? <b>3</b>
 Enter coin identifier and value in cents: <b>A 1</b>
@@ -371,9 +404,39 @@ various ways it might be malformed.</p>
 </div>
 </div>
 
+### Testing
+
+It is your responsibility to test a variety of valid input situations
+as well as invalid inputs. Make sure to test that every possible error
+condition detailed above is handled as specified. Make sure that you
+check for correct summary results even in cases where no add or no
+remove commands have been executed. What if the user doesn't enter any
+task identifiers and durations? Think critically as an adversary for
+other problems or edge cases that your program might encounter, and
+test that they are handled appropriately.
+
+If you identify any input scenarios or possible error situations <em>that
+are not already covered by our notes in the Error Handling section</em>,
+please post on piazza regarding how to handle them.
+
+
+### Style
+
+You should also make sure that your code has good style. You can look
+at the [coding style guidelines
+here](https://jhucsf.github.io/fall2024/resources/style.html) from a
+course you may take later that also applies to this course. In brief,
+you should make sure that your submission is well formed, readable,
+consistently styled, and documented as follows:
+
+- it is not overcommented or undercommented
+- there are no ambiguous or meaningless variable names 
+- it has proper/consistent bracket placements and indentation
+- there are no global variables
+
 ### Submission
 
-Create a *.zip* file named *hw1.zip* which contains only **coins.c**
+Create a *.zip* file named *hw1.zip* which contains only **tasks.c**
 and **gitlog.txt**. (Do not zip your entire hw1 folder - only these two
 files.) Copy the *hw1.zip* file to your local machine and submit it as
 Homework 1 on Gradescope.
@@ -383,15 +446,7 @@ Recall you can create your `gitlog.txt` file by running `git log > gitlog.txt`.
 When you submit, Gradescope conducts a series of automatic tests.
 These tests do basic checks like making sure that you submitted the
 right files and that your `.c` file compiles properly.  If you see error
-messages here (look for red), address them and resubmit.
-
-<div class='admonition danger'>
-<div class='title'>No-compile Policy</div>
-<div class='content'>
-<p>Remember that if your final submitted code does not compile, you will
-earn a zero score for the assignment.</p>
-</div>
-</div>
+messages here (look for red), address them and resubmit until you pass them.
 
 <div class='admonition tip'>
 <div class='title'>Tip</div>
@@ -404,24 +459,15 @@ your latest submission will be graded.</p>
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
-<p>Review the course syllabus for late submission policies (grace period
-and late days). You will want to save your late days for the future
-assignments as they will be more involved.</p>
+<p>Review the course syllabus for late submission policies. You will
+want to save your late days for future assignments as they will be
+more involved. Remember that you can use at most 2 for any one
+assignment and any portion of a day counts as 1 whole day.</p>
 </div>
 </div>
 
-<!-- kp: do we want to update this link to a newer one? -->
 
-You should also make sure that your code has good
-style. You can look at the [coding style guidelines
-here](https://jhucsf.github.io/spring2023/assign/style.html) from a
-course you will take later that also applies to this course. In brief,
-you should make sure that your submission is well formed:
-
-- it is not overcommented or undercommented
-- there are no ambiguous variable names 
-- proper/consistent bracket placements and indentation
-- no global variables
+### Grading
 
 Two notes regarding automatic checks for programming assignments:
 
@@ -434,5 +480,26 @@ Two notes regarding automatic checks for programming assignments:
 * The automatic checks cover some of the requirements set out in the
   assignment, but not all. There will be hidden tests that test edge
   cases. In general, it is up to you to test your own work and ensure
-  your programs satisfy all stated requirements. Passing all the automatic
-  checks does not necessarily mean you will earn all the points.
+  your programs satisfy all stated requirements. Passing all the
+  automatic checks does not necessarily mean you will earn all the
+  points. It is an ethics violation for the course staff to tell you
+  what is in the hidden tests or whether you pass them, so please
+  don't ask!
+
+<div class='admonition danger'>
+<div class='title'>No-compile Policy</div>
+<div class='content'>
+<p>Remember that if your final code submission does not compile, you will
+receive a zero score for the assignment.</p>
+</div>
+</div>
+
+The 60 points for this assignment will be distributed roughly as follows when we grade:
+
+* [9] Submission (including gitlog and deductions for compiler warnings)
+* [18] Basic functionality (including prompts and control flow)
+* [16] Correctness of sesults (summary output)
+* [12] Input validation and error handling
+* [5] Style
+
+Please plan accordingly, and practice incremental coding and testing for best results!
