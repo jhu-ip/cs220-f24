@@ -40,6 +40,19 @@ show_in_nav: false
     Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/kpresler">https://wse.zoom.us/my/kpresler</a>
     </div>
   </div>
+
+  <div class="card">
+    <img alt="Joanne photo" src="{{site.baseurl}}/img/staffpix/joanne.png">
+    <div class="details">
+    <span class="name_and_role">Patricio Simari</span><br>
+    Department of Computer Science<br>
+    Email: <a href="mailto:joanne@cs.jhu.edu">joanne@cs.jhu.edu</a><br>
+    Office hours: Mondays 4:45-5:45p in Malone 225, Thursdays 11:30a-12:30p on Zoom<br>
+    Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/jselinski">https://wse.zoom.us/my/jselinski</a>
+    <br>
+    </div>
+  </div>
+
 </div>
 
 ## Head Course Assistants
