@@ -70,25 +70,25 @@ Now that you have a local copy of the git repo in your ugrad account, we want to
 ### Part 4
 Now, copy a file from your local copy of the class repo into the directory you just created in part 3, then compile and test it.  Here is how:
 
-1.	Copy `hello_world.c` from your local copy of the class repository into your personal folder by navigating into `~/temp` (the folder you just created) using `cd temp` and then typing (Hint: using tab-completion will help here!): 
+1.	Copy `helloworld.c` from your local copy of the class repository into your personal folder by navigating into `~/temp` (the folder you just created) using `cd temp` and then typing (Hint: using tab-completion will help here!): 
 ```bash
-cp ~/cs220-f24-public/exercises/ex03b/hello_world.c .
+cp ~/cs220-f24-public/exercises/ex03b/helloworld.c .
 ```
 The command above ends with a period ("dot"), and there must be a space before the dot. The dot in Unix stands for the current directory; in this command you’re expressing that the current directory is the destination for the copy you’re making.
  
-2.	Type `pwd` to confirm that you are still working in the folder named `~/temp`, and then type `ls` to see that it now contains a copy of `hello_world.c`
+2.	Type `pwd` to confirm that you are still working in the folder named `~/temp`, and then type `ls` to see that it now contains a copy of `helloworld.c`
 
-3.	Now, compile the source file named `hello_world.c` and create an executable file by typing:
+3.	Now, compile the source file named `helloworld.c` and create an executable file by typing:
 ```bash
-gcc -std=c99 -Wall -Wextra -pedantic hello_world.c
+gcc -std=c99 -Wall -Wextra -pedantic helloworld.c
 ```
 This command should create a new executable file named `a.out`.  (Type `ls` again now to confirm that the new file has been created.)
 
 4.	Execute the file you just created by typing `./a.out` and seeing what is printed. The `./` to start the command above indicates to Unix that this program resides in the current directory. Unix/Linux does not look in this directory for commands by default, so without this, the command will not be found.
 
-5.	Now, make a copy of the `hello_world.c` file in the same folder, and name it `hello_me.c`.  Here is how: Type:
+5.	Now, make a copy of the `helloworld.c` file in the same folder, and name it `hello_me.c`.  Here is how: Type:
 ```bash
-cp hello_world.c hello_me.c
+cp helloworld.c hello_me.c
 ```
 Note that the `cp` (that is, copy) command uses two arguments; the first is the source, the second is the destination. Type `ls` once more to confirm that you now have a new copy of the file in your folder.
 
