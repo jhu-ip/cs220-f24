@@ -232,167 +232,155 @@ including spacing. Note that
 </div>
 </div>
 
-Here are several samples runs of the program on ugrad, where $ denotes
+Here are several samples runs of the program on ugrad, where '$' denotes
 the command prompt, and user input is shown in **bold**. Note that the
 first line shown below is the command you are expected to use as you
 compile your program (and the one that will be used by the graders).
 The compilation line should report zero errors and warnings, as
-demonstrated below:
+demonstrated in these examples.
 
-Example 1
+Example 1 (no input errors)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-
-
-How many denominations? <b>5</b>
-Enter coin identifier and value in cents: <b>p 1</b>
-Enter coin identifier and value in cents: <b>n 5</b>
-Enter coin identifier and value in cents: <b>d 10</b>
-Enter coin identifier and value in cents: <b>q 25</b>
-Enter coin identifier and value in cents: <b>D 100</b>
-Enter a command: <b>a p 37</b>
-Enter a command: <b>a q 5</b>
-Enter a command: <b>a D 4</b>
-Enter a command: <b>r q 2</b>
-Enter a command: <b>s</b>
-Identifier,Face Value,Count,Total Value
-p,1,37,37
-n,5,0,0
-d,10,0,0
-q,25,3,75
-D,100,4,400
-Overall value of jar: $5.12
-Enter a command: <b>q</b>
+How many minutes to spend? <b>280</b>
+Enter task type identifiers and durations in minutes,
+one per line; enter '0 0' to stop
+<b>c 75
+p 50
+i 10
+0 0</b>
+Enter a command [a, r, s, q]: <b>a c 2</b>
+Enter a command [a, r, s, q]: <b>a i 3</b>
+Enter a command [a, r, s, q]: <b>s</b>
+Identifier,Duration,Count,Total Time
+c,75,2,150
+p,50,0,0
+i,10,3,30
+Total time in jar: 3:00 out of: 4:40 possible
+Enter a command [a, r, s, q]: <b>r c 1</b>
+Enter a command [a, r, s, q]: <b>a p 2</b>
+Enter a command [a, r, s, q]: <b>s</b>
+Identifier,Duration,Count,Total Time
+c,75,1,75
+p,50,2,100
+i,10,3,30
+Total time in jar: 3:25 out of: 4:40 possible
+Enter a command [a, r, s, q]: <b>q</b>
 Bye!
+$
 </pre></div>
 
-Example 2 (Canadian edition)
+Example 2 (case-sensitive task identifiers)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-
-$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
-$ <b>./a.out</b>
-How many denominations? <b>6</b>
-Enter coin identifier and value in cents: <b>p 1</b>
-Enter coin identifier and value in cents: <b>n 5</b>
-Enter coin identifier and value in cents: <b>d 10</b>
-Enter coin identifier and value in cents: <b>q 25</b>
-Enter coin identifier and value in cents: <b>D 100</b>
-Enter coin identifier and value in cents: <b>t 200</b>
-Enter a command: <b>a t 3</b>
-Enter a command: <b>a q 2</b>
-Enter a command: <b>s</b>
-Identifier,Face Value,Count,Total Value
-p,1,0,0
-n,5,0,0
-d,10,0,0
-q,25,2,50
-D,100,0,0
-t,200,3,600
-Overall value of jar: $6.50
-Enter a command: <b>q</b>
+How many minutes to spend? <b>300</b>
+Enter task type identifiers and durations in minutes,
+one per line; enter '0 0' to stop
+<b>c 50
+C 75
+0 0</b>
+Enter a command [a, r, s, q]: <b>a c 2</b>
+Enter a command [a, r, s, q]: <b>a C 1</b>
+Enter a command [a, r, s, q]: <b>s</b>
+Identifier,Duration,Count,Total Time
+c,50,2,100
+C,75,1,75
+Total time in jar: 2:55 out of: 5:00 possible
+Enter a command [a, r, s, q]: <b>q</b>
 Bye!
+$
 </pre></div>
 
 Example 3 (invalid remove quantity and quitting using Control-D)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-How many minutes to spend? 480
+How many minutes to spend? <b>480</b>
 Enter task type identifiers and durations in minutes,
 one per line; enter '0 0' to stop
-i 15
+<b>i 15
 m 60
 M 90
-0 0
-Enter a command [a, r, s, q]: a m 2
-Enter a command [a, r, s, q]: s
+0 0</b>
+Enter a command [a, r, s, q]: <b>a m 2</b>
+Enter a command [a, r, s, q]: <b>s</b>
 Identifier,Duration,Count,Total Time
 i,15,0,0
 m,60,2,120
 M,90,0,0
 Total time in jar: 2:00 out of: 8:00 possible
-Enter a command [a, r, s, q]: r m 3
+Enter a command [a, r, s, q]: <b>r m 3</b>
 Invalid command
-Enter a command [a, r, s, q]: <i>...user types Control-D...]</i>Bye!
+Enter a command [a, r, s, q]: <i>[...user types Control-D...]</i>Bye!
+$
 </pre></div>
 
-Example 4 (user enters invalid number of denominations)
+Example 4 (invalid jar size)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-
-$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
-$ <b>./a.out</b>
-How many denominations? <b>foobar</b>
+How many minutes to spend? <b>-300</b>
 Invalid input
+$
 </pre></div>
 
-Example 5 (user enters invalid input for coin identifier/value)
+Example 5 (invalid identifier/duration input)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-
-$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
-$ <b>./a.out</b>
-How many denominations? <b>3</b>
-Enter coin identifier and value in cents: <b>p 1</b>
-Enter coin identifier and value in cents: <b>n 5</b>
-Enter coin identifier and value in cents: <b>d frotz</b> 
+How many minutes to spend? <b>300</b>
+Enter task type identifiers and durations in minutes,
+one per line; enter '0 0' to stop
+<b>p 50
+c 75
+i ten</b>
 Invalid input
+$
 </pre></div>
 
-Example 6 (invalid coin identifier)
+Example 6 (task identifier not found)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-
-$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
-$ <b>./a.out</b>
-How many denominations? <b>2</b>
-Enter coin identifier and value in cents: <b>p 1</b>
-Enter coin identifier and value in cents: <b>n 5</b>
-Enter a command: <b>a p 211</b>
-Enter a command: <b>a n 19</b>
-Enter a command: <b>s</b>
-Identifier,Face Value,Count,Total Value
-p,1,211,211
-n,5,19,95
-Overall value of jar: $3.06
-Enter a command: <b>a Y 5</b>
-Unknown coin identifier
+How many minutes to spend? <b>300</b>
+Enter task type identifiers and durations in minutes,
+one per line; enter '0 0' to stop
+<b>p 60
+c 75
+m 30
+0 0</b>
+Enter a command [a, r, s, q]: <b>a t 1</b>
+Unknown task type identifier
+$
 </pre></div>
 
-Example 7 (invalid command)
+Example 7 (invalid commands - treats each input character as a command as the loop continues)
 
 <div class="highlighter-rouge"><pre>
-$ <b>gcc tasks.c -std=c99 -pedantic -Wall -Wextra</b>
+$ <b>gcc -std=c99 -pedantic -Wall -Wextra tasks.c</b>
 $ <b>./a.out</b>
-
-$ <b>gcc -std=c99 -pedantic -Wall -Wextra coins.c</b>
-$ <b>./a.out</b>
-How many denominations? <b>3</b>
-Enter coin identifier and value in cents: <b>A 1</b>
-Enter coin identifier and value in cents: <b>B 17</b>
-Enter coin identifier and value in cents: <b>C 57</b>
-Enter a command: <b>a B 13</b>
-Enter a command: <b>r B 4</b>
-Enter a command: <b>s</b>
-Identifier,Face Value,Count,Total Value
-A,1,0,0
-B,17,9,153
-C,57,0,0
-Overall value of jar: $1.53
-Enter a command: <b>j</b>
+How many minutes to spend? <b>60</b>
+Enter task type identifiers and durations in minutes,
+one per line; enter '0 0' to stop
+<b>c 75
+p 50
+i 10
+0 0</b>
+Enter a command [a, r, s, q]: <b>i p 1</b>
 Invalid command
+Invalid command
+Invalid command
+Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: <b>q</b>
+Bye!
+$
 </pre></div>
 
 <div class='admonition tip'>
@@ -417,8 +405,95 @@ test that they are handled appropriately.
 
 If you identify any input scenarios or possible error situations <em>that
 are not already covered by our notes in the Error Handling section</em>,
-please post on piazza regarding how to handle them.
+please post on Piazza regarding how to handle them.
 
+For this first real assignment we are providing a sample input file and
+matching output file that you can use to check whether your prompts
+and outputs are programmed exactly as expected. This is the type of
+testing (not the exact tests) that our autograder will usually perform
+in hidden tests. In order to access the samples you will need to
+download them from our public course repo using commands similar to those in
+exercise 3b, assuming you have successfully cloned that
+repository. If not, complete exercises 3a and 3b and ask for help in
+office hours or class if needed.
+
+First, log into the ugrad system and navigate into your clone of the
+`cs220-f24-public` repo. Do a `git pull` to get the latest files we
+have provided.
+
+Second, using the unix command `cp` (copy) along with customized file
+paths based on your file directory set-up, you'll want to copy from
+`cs220-f24-public/homework/hw1/sampleIn.txt` to the directory where
+you are coding your solution to this assignment. Similarly, copy from
+`cs220-f24-public/homework/hw1/sampleOut.txt` to the same place.
+
+Next, assuming your solution has been compiled to file `a.out`, run
+it on the input file using input redirection, and saving the
+[`stdout`] output to file `myOut.txt` as follows. You will see that
+the error messages that should be printed to `stderr` are still
+displayed on the screen, not in the `myOut.txt` output file and the
+`stdout` output is redirected to the text file instead of being
+displayed on the screen.
+
+``` 
+prompt> ./a.out <sampleIn.txt >myOut.txt
+Invalid command
+Invalid command
+Invalid command
+```
+
+Now use the unix `diff` command to compare our output file to
+yours. This does an exact character comparison. The output should be
+nothing if the files match exactly as shown below.
+
+```
+prompt> diff sampleOut.txt myOut.txt
+prompt>
+```
+
+If the output files don't match, then it will show you which lines
+differ, and sometimes the difference may only be a space that is
+invisible to us, but that could cause an autograder test to fail. Here
+is an example where there is an extra space at the end of the first
+line and also with some "Invalid Command" error messages going to `stdout` (the file)
+instead of the screen.
+
+```
+prompt> diff sampleOut.txt myOut.txt
+1c1
+< How many minutes to spend? Enter task type identifiers and durations in minutes,
+---
+> How many minutes to spend? Enter task type identifiers and durations in minutes, 
+15c15,18
+< Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Identifier,Duration,Count,Total Time
+---
+> Enter a command [a, r, s, q]: Invalid command
+> Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Invalid
+> command
+> Enter a command [a, r, s, q]: Identifier,Duration,Count,Total Time
+21c24,25
+< Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Identifier,Duration,Count,Total Time
+---
+> Enter a command [a, r, s, q]: Enter a command [a, r, s, q]: Invalid command
+> Enter a command [a, r, s, q]: Identifier,Duration,Count,Total Time
+prompt>
+```
+
+What you see is the output in the first file (`sampleOut.txt`)
+indicated by lines that start with `<` and the output in the second
+file (`myOut.txt`) indicated by `>`. Each pair of lines that differ
+start with the line number(s) in the first file (21 in the last pair) and
+the line number(s) of the mismatches in the second file (24-25 for the
+last pair). It is generally recommend that you use the reference file
+as the first argument to `diff` for consistent interpretation of these
+results.
+
+You can use this style of testing to make your assignment process
+smoother throughout the semester. We recommend writing multiple small
+input files so you can easily re-run them on your evolving solution
+with input redirection to see if you get the right output. However, we
+won't usually provide either the input or the reference output for
+you. You'll need to figure out what that should be.
 
 ### Style
 
@@ -433,6 +508,7 @@ consistently styled, and documented as follows:
 - there are no ambiguous or meaningless variable names 
 - it has proper/consistent bracket placements and indentation
 - there are no global variables
+- lines are at most 80 characters long
 
 ### Submission
 
@@ -445,8 +521,10 @@ Recall you can create your `gitlog.txt` file by running `git log > gitlog.txt`.
 
 When you submit, Gradescope conducts a series of automatic tests.
 These tests do basic checks like making sure that you submitted the
-right files and that your `.c` file compiles properly.  If you see error
-messages here (look for red), address them and resubmit until you pass them.
+right files and that your `.c` file compiles properly.  If you see
+error messages here (look for red), address them and resubmit until
+you pass them. Some of the error messages will show results similar to
+the `diff` in Testing example above.
 
 <div class='admonition tip'>
 <div class='title'>Tip</div>
