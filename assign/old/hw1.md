@@ -57,7 +57,9 @@ characters (such as 'i' for interview or 'm' for meeting) and the
 durations must be integers. You do not need to do any error checking
 on these values. The user must enter 0 0 as the input to end this
 process. Your program must enforce the program limit of at most 10
-different type/duration pairs.
+different type/duration pairs. Any extra user input should be treated
+as input to later parts of the program, not reported as an error
+(because it should not be read during set-up at all).
 
 Once all of the task identifiers and durations are recorded (set-up is
 complete), the program enters a command loop. Each time the program
