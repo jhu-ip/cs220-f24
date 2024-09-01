@@ -82,6 +82,6 @@ show_in_nav: false
 
 ## Course Assistants
 
-Office Hours Schedule for all TAs/CAs:
-# [CA Office Hours Schedule](https://docs.google.com/spreadsheets/d/1wYlaZmnEq4qRg585t8u-eAzFdM-2uQ2sdM5blxb0GJY/edit#gid=2050153296)
+Office Hours Schedule for all TAs/CAs (starting Tuesday 9/2): 
+# [CA Office Hours Schedule](https://docs.google.com/spreadsheets/d/1s2MjOSQ6FhOGoajFglBVnRmn9IKignFRKTRShVtFfl4/edit?usp=sharing)
 
