@@ -152,10 +152,12 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td>
 	  <a href="https://cplusplus.com/reference/cmath/">C Math Library Reference</a>
-	  <a href="https://stackoverflow.com/a/8114031">Discussion `assert`</a>
+	  <a href="https://stackoverflow.com/a/8114031">Discussion on `assert`</a>
 	  </td>
       <td></td>
-      <td></td>
+      <td>
+        <a href="https://makefiletutorial.com/">Makefile Reference/Tutorial</a>
+      </td>
     </tr>
     
   </tbody>
