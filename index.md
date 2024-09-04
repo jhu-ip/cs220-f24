@@ -55,7 +55,7 @@ well. You must join the Gradescope course page through Canvas.
 * **February 23rd** — [HW4](https://www.gradescope.com/courses/701550/assignments/4148605/) posted!
 * **February 16th** — [HW3](assign/hw3) posted!
 * **February 9th** — [HW2](https://www.gradescope.com/courses/701550/assignments/4077691/) posted!
-* **February 1st** — [HW1](assign/hw1) posted!
 -->
+* **September 4** — [HW1](assign/hw1) posted!
 * **August 29** — [HW0](assign/hw0) posted!
 * **August 26** — Welcome to Intermediate Programming! Check out Week 1 material under the "Course Material" tab. 

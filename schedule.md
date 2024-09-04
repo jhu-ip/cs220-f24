@@ -15,9 +15,9 @@ on the due date.
 Assignment/Exam | Date
 --------------- | ----
 [Homework 0](assign/hw0.html) | Due Fri, September 6th
+[Homework 1](assign/hw1.html) | Due Fri, September 13th
 
 <!--
-[Homework 1](assign/hw1.html) | Due Fri, Feb 9th
 [Homework 2](https://www.gradescope.com/courses/701550/assignments/4077691/) | Due Fri, Feb 16th
 [Homework 3](assign/hw3.html) | Due Fri, Feb 23rd
 [Homework 4](https://www.gradescope.com/courses/701550/assignments/4148605/) | Due Fri, Mar 1st
