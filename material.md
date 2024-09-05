@@ -152,10 +152,12 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td>
 	  <a href="https://cplusplus.com/reference/cmath/">C Math Library Reference</a>
-	  <a href="https://stackoverflow.com/a/8114031">Discussion `assert`</a>
+	  <a href="https://stackoverflow.com/a/8114031">Discussion on `assert`</a>
 	  </td>
       <td></td>
-      <td></td>
+      <td>
+        <a href="https://makefiletutorial.com/">Makefile Reference/Tutorial</a>
+      </td>
     </tr>
     
   </tbody>
@@ -705,7 +707,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_1';
+    var active_week_id = 'week_2';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
