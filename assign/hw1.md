@@ -578,7 +578,7 @@ The 60 points for this assignment will be distributed roughly as follows when we
 
 * [9] Submission (including gitlog and deductions for compiler warnings)
 * [18] Basic functionality (including prompts and control flow)
-* [16] Correctness of sesults (summary output)
+* [16] Correctness of results (summary output)
 * [12] Input validation and error handling
 * [5] Style
 
