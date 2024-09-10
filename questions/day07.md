@@ -3,7 +3,7 @@ id: day07_questions
 layout: default
 title: Day 7 Recap Questions
 reference solutions:
-  1. sizeof(array_name) / sizeof(int)
+  1. sizeof(array_name) / sizeof(int) - note: this will only work for statically allocated arrays declared in the same scope as the sizeof invocation.
   2. no - sizeof(array_name) vs. strlen(array_name)
   3. declaration is the function header only; definition is header + body
   4. no, C does not support this (unlike Java and C++)
