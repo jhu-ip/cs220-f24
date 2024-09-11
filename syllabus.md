@@ -355,7 +355,7 @@ points towards your final grade.
 
 -   14% - final coding project (in teams, due December 6)
 
--   15% - final exam (day/time assigned by registrar in Computing Common Block A)
+-   15% - final exam (Tuesday Dec 17th, 2-5p)
 
 -   3% - fudge grade (see above)
 
