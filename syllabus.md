@@ -501,7 +501,7 @@ You need to be be aware and comply with the deadlines of "add a course", "drop a
 
 Student laptop repair is available in the Technology Store, Levering Hall Sherwood Room (113) Monday-Friday from 9:00am-5:00pm. Please contact 410-516-0448 or <techstore@jhu.edu> for questions. More info at [Information Technology Services & Support](https://studentaffairs.jhu.edu/computing/services-support/).
 
-Student Outreach and Support has loaner machines. Specifically, reach out using [Hannah Marks's appointment request page](https://calendly.com/hmarks3).
+Additionally, the Center for Student Success and Student Outreach and Support maintain a [Laptop Loaner Program](https://cm.maxient.com/reportingform.php?JohnsHopkinsUniv&layout_id=11), which is open to all KSAS and WSE undergraduate students.
 
 **The Office of Academic Support at JHU**
 
