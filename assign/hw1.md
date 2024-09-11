@@ -140,7 +140,7 @@ exit code 1.
 
 If the user enters a task identifier as part of an `a` or `r` command that
 is not one of the identifiers entered by the user during set-up,
-the program should print the line "`Unknown task identifier`" to `stderr`
+the program should print the line "`Unknown task type identifier`" (corrected 9/11 to include "type") to `stderr`
 and exit with the exit code 2. Note that the "`Unknown task identifier`"
 should only be printed if the task identifier and count were both
 read successfully. Also note that identifier matching is case-sensitive.
