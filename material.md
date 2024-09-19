@@ -289,7 +289,7 @@ the materials for that week.
       <td>Exercise</td>
       <td><a href='exercise/ex15.html'>Exercise 15</a></td>
       <td><a href='exercise/ex16.html'>Exercise 16</a></td>
-      <td><a href=''>Midterm Project</a></td>
+      <td>Midterm Project (TBA)</td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
