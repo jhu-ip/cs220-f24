@@ -255,7 +255,6 @@ the materials for that week.
 </table>
 </div>
 
-<!--
 <button type="button" id="week_6_toggle" class="week_control_button">Week 6 (30-Sep to 4-Oct)</button>
 <div id="week_6" class="collapsible">
 <table>
@@ -290,7 +289,7 @@ the materials for that week.
       <td>Exercise</td>
       <td><a href='exercise/ex15.html'>Exercise 15</a></td>
       <td><a href='exercise/ex16.html'>Exercise 16</a></td>
-      <td><a href='assign/midterm.html'>Midterm Project</a></td>
+      <td><a href=''>Midterm Project</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -301,7 +300,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_7_toggle" class="week_control_button">Week 7 (7-Oct to 11-Oct)</button>
 <div id="week_7" class="collapsible">
 <table>
