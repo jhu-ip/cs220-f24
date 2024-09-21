@@ -279,7 +279,7 @@ Your Gradescope submission should contain at least the following files:
 * search_functions.h
 * search_functions.c
 * test_search_functions.c
-* test1.txt, test2.txt, and any additional data files created by you which your tester functions require
+* any data files created by you which your tester functions may require
 * Makefile
 * gitlog.txt
 ```
