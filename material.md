@@ -300,7 +300,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<!--
+
 <button type="button" id="week_7_toggle" class="week_control_button">Week 7 (7-Oct to 11-Oct)</button>
 <div id="week_7" class="collapsible">
 <table>
@@ -341,12 +341,12 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td><a href='resources/MidtermReview.pdf'>Midterm Review Questions</a><br><a href='resources/Midterm-Fall2019.pdf'>Fall 2019 Midterm Questions</a></td>
       <td></td>
-      <td><a href='resources/MidtermReview-solutions.pdf'>Midterm Review Solutions</a><br><a href='resources/Midterm-Fall2019-solutions.pdf'>Fall 2019 Midterm Solutions</a></td>
+      <!--<td><a href='resources/MidtermReview-solutions.pdf'>Midterm Review Solutions</a><br><a href='resources/Midterm-Fall2019-solutions.pdf'>Fall 2019 Midterm Solutions</a></td> -->
     </tr>
   </tbody>
 </table>
 </div>
-
+<!--
 <button type="button" id="week_8_toggle" class="week_control_button">Week 8 (14-Oct to 18-Oct)</button>
 <div id="week_8" class="collapsible">
 <table>
