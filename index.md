@@ -51,9 +51,8 @@ well. You must join the Gradescope course page through Canvas.
 * **April 5th** — [Homework 7](assign/hw7) posted!
 * **March 29th** — [Homework 6](https://www.gradescope.com/courses/701550/assignments/4292377/) posted!
 * **March 15th** — [HW5](assign/hw5) posted!
-* **February 27th** — [Midterm Project](assign/midterm) posted!
-* **February 23rd** — [HW4](https://www.gradescope.com/courses/701550/assignments/4148605/) posted!
 -->
+* **October 4th** — [Midterm Project](assign/midterm) posted!
 * **September 27th** — [HW4](https://www.gradescope.com/courses/799633/assignments/4998950) posted!
 * **September 20th** — [HW3](assign/hw3) posted!
 * **September 13th** — [HW2](https://www.gradescope.com/courses/799633/assignments/4848796) posted!
