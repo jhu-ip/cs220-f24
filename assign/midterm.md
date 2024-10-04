@@ -53,7 +53,7 @@ This project is larger and more complex than previous programming assignments. A
 
 
 <div class='admonition danger'>
-<div class='title'>Valgind Note</div>
+<div class='title'>Valgrind Note</div>
 <div class='content'>
 From this point forward in the semester, your programs will need to not only compile and run cleanly (i.e. with no warnings, errors, or crashes), but also must not have any memory-related issues as reported by valgrind.
 </div>
