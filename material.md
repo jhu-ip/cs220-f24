@@ -380,7 +380,7 @@ the materials for that week.
     <tr>
       <td>Exercise</td>
       <td>N/A</td>
-      <td>Midtem Project</td>
+      <td>Midterm Project</td>
       <td>N/A</td>
     </tr>
     <tr>
@@ -393,7 +393,6 @@ the materials for that week.
 </table>
 </div>
 
-<!--
 
 <button type="button" id="week_9_toggle" class="week_control_button">Week 9 (21-Oct to 25-Oct)</button>
 <div id="week_9" class="collapsible">
@@ -440,6 +439,8 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+
+<!--
 
 <button type="button" id="week_10_toggle" class="week_control_button">Week 10 (28-Oct to 1-Nov)</button>
 <div id="week_10" class="collapsible">
@@ -708,7 +709,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_8';
+    var active_week_id = 'week_9';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {

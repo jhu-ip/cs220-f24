@@ -3,8 +3,8 @@ id: day24_questions
 layout: default
 title: Day 24 Recap Questions
 reference solutions:
-  1. A collection of unique keys, each with an associated value.
-  2. std::pair or std::tuple
+  1. A collection of unique keys, each with an associated value. `pair` is exactly two, `tuple` may be more.
+  2. std::pair or std::tuple (or user-defined class type or struct)
   3. std::vector, std::map, std::pair, std::tuple, std::list
   4. std::sort, std::find, std::count
 ---
