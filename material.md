@@ -440,8 +440,6 @@ the materials for that week.
 </table>
 </div>
 
-<!--
-
 <button type="button" id="week_10_toggle" class="week_control_button">Week 10 (28-Oct to 1-Nov)</button>
 <div id="week_10" class="collapsible">
 <table>
@@ -487,6 +485,8 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+
+<!--
 
 <button type="button" id="week_11_toggle" class="week_control_button">Week 11 (4-Nov to 8-Nov)</button>
 <div id="week_11" class="collapsible">
